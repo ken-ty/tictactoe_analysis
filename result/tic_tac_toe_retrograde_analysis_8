@@ -1,0 +1,5158 @@
+digraph {
+	0 [label="---
+---
+---
+ 9 3" color=LightSalmon fillcolor=white margin=0.1 shape=square style=filled]
+	0 -> 16
+	0 -> 1
+	0 -> 2
+	16 [label="---
+-o-
+---
+ 8 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	16 -> 8193 [style=invis]
+	16 -> 8194 [style=invis]
+	1 [label="o--
+---
+---
+ 8 5" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1 -> 768 [style=invis]
+	1 -> 544 [style=invis]
+	1 -> 514 [style=invis]
+	1 -> 516 [style=invis]
+	1 -> 528 [style=invis]
+	2 [label="-o-
+---
+---
+ 8 5" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	2 -> 1088 [style=invis]
+	2 -> 1025 [style=invis]
+	2 -> 1152 [style=invis]
+	2 -> 1032 [style=invis]
+	2 -> 1040 [style=invis]
+	8193 [label="x--
+-o-
+---
+ 7 4" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	8193 -> 560 [style=invis]
+	8193 -> 784 [style=invis]
+	8193 -> 530 [style=invis]
+	8193 -> 532 [style=invis]
+	8194 [label="-x-
+-o-
+---
+ 7 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8194 -> 1048 [style=invis]
+	8194 -> 1041 [style=invis]
+	8194 -> 1104 [style=invis]
+	8194 -> 1168 [style=invis]
+	768 [label="o--
+---
+--x
+ 7 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	768 -> 800 [style=invis]
+	768 -> 784 [style=invis]
+	768 -> 770 [style=invis]
+	768 -> 772 [style=invis]
+	544 [label="o--
+--x
+---
+ 7 7" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	544 -> 1344 [style=invis]
+	544 -> 1089 [style=invis]
+	544 -> 1216 [style=invis]
+	544 -> 1120 [style=invis]
+	544 -> 1092 [style=invis]
+	544 -> 1096 [style=invis]
+	544 -> 1104 [style=invis]
+	514 [label="ox-
+---
+---
+ 7 7" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	514 -> 1089 [style=invis]
+	514 -> 1153 [style=invis]
+	514 -> 1092 [style=invis]
+	514 -> 1029 [style=invis]
+	514 -> 1033 [style=invis]
+	514 -> 1036 [style=invis]
+	514 -> 1041 [style=invis]
+	516 [label="o-x
+---
+---
+ 7 7" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	516 -> 608 [style=invis]
+	516 -> 772 [style=invis]
+	516 -> 548 [style=invis]
+	516 -> 518 [style=invis]
+	516 -> 580 [style=invis]
+	516 -> 524 [style=invis]
+	516 -> 532 [style=invis]
+	528 [label="o--
+-x-
+---
+ 7 4" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	528 -> 8195 [style=invis]
+	528 -> 8204 [style=invis]
+	528 -> 8197 [style=invis]
+	528 -> 8260 [style=invis]
+	1088 [label="-o-
+---
+x--
+ 7 7" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1088 -> 800 [style=invis]
+	1088 -> 672 [style=invis]
+	1088 -> 546 [style=invis]
+	1088 -> 608 [style=invis]
+	1088 -> 548 [style=invis]
+	1088 -> 552 [style=invis]
+	1088 -> 560 [style=invis]
+	1025 [label="xo-
+---
+---
+ 7 7" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	1025 -> 546 [style=invis]
+	1025 -> 770 [style=invis]
+	1025 -> 518 [style=invis]
+	1025 -> 552 [style=invis]
+	1025 -> 522 [style=invis]
+	1025 -> 524 [style=invis]
+	1025 -> 530 [style=invis]
+	1152 [label="-o-
+---
+-x-
+ 7 4" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	1152 -> 1216 [style=invis]
+	1152 -> 1153 [style=invis]
+	1152 -> 1168 [style=invis]
+	1152 -> 1160 [style=invis]
+	1032 [label="-o-
+x--
+---
+ 7 7" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1032 -> 1120 [style=invis]
+	1032 -> 1096 [style=invis]
+	1032 -> 1033 [style=invis]
+	1032 -> 1160 [style=invis]
+	1032 -> 1064 [style=invis]
+	1032 -> 1036 [style=invis]
+	1032 -> 1048 [style=invis]
+	1040 [label="-o-
+-x-
+---
+ 7 4" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	1040 -> 8232 [style=invis]
+	1040 -> 8202 [style=invis]
+	1040 -> 8195 [style=invis]
+	1040 -> 8204 [style=invis]
+	560 [label="x--
+-oo
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	560 -> 9536 [style=invis]
+	560 -> 9281 [style=invis]
+	560 -> 9312 [style=invis]
+	560 -> 9408 [style=invis]
+	560 -> 9284 [style=invis]
+	560 -> 9288 [style=invis]
+	784 [label="x--
+-o-
+--o
+ 6 3" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	784 -> 8992 [style=invis]
+	784 -> 8962 [style=invis]
+	784 -> 8964 [style=invis]
+	530 [label="xo-
+-o-
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	530 -> 9281 [style=invis]
+	530 -> 9345 [style=invis]
+	530 -> 9284 [style=invis]
+	530 -> 9221 [style=invis]
+	530 -> 9225 [style=invis]
+	530 -> 9228 [style=invis]
+	532 [label="x-o
+-o-
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	532 -> 8800 [style=invis]
+	532 -> 8964 [style=invis]
+	532 -> 8740 [style=invis]
+	532 -> 8710 [style=invis]
+	532 -> 8772 [style=invis]
+	532 -> 8716 [style=invis]
+	1048 [label="-x-
+oo-
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1048 -> 9312 [style=invis]
+	1048 -> 9288 [style=invis]
+	1048 -> 9225 [style=invis]
+	1048 -> 9256 [style=invis]
+	1048 -> 9352 [style=invis]
+	1048 -> 9228 [style=invis]
+	1041 [label="ox-
+-o-
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1041 -> 8738 [style=invis]
+	1041 -> 8962 [style=invis]
+	1041 -> 8710 [style=invis]
+	1041 -> 8744 [style=invis]
+	1041 -> 8714 [style=invis]
+	1041 -> 8716 [style=invis]
+	1104 [label="-x-
+-o-
+o--
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1104 -> 8992 [style=invis]
+	1104 -> 8864 [style=invis]
+	1104 -> 8738 [style=invis]
+	1104 -> 8800 [style=invis]
+	1104 -> 8740 [style=invis]
+	1104 -> 8744 [style=invis]
+	1168 [label="-x-
+-o-
+-o-
+ 6 3" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1168 -> 9408 [style=invis]
+	1168 -> 9345 [style=invis]
+	1168 -> 9352 [style=invis]
+	800 [label="x--
+--o
+--o
+ 6 6" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	800 -> 1824 [style=invis]
+	800 -> 1856 [style=invis]
+	800 -> 1920 [style=invis]
+	800 -> 1796 [style=invis]
+	800 -> 1800 [style=invis]
+	800 -> 1808 [style=invis]
+	770 [label="xo-
+---
+--o
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	770 -> 6336 [style=invis]
+	770 -> 6209 [style=invis]
+	770 -> 6210 [style=invis]
+	770 -> 6464 [style=invis]
+	770 -> 6240 [style=invis]
+	770 -> 6224 [style=invis]
+	772 [label="x-o
+---
+--o
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	772 -> 2880 [style=invis]
+	772 -> 2752 [style=invis]
+	772 -> 2626 [style=invis]
+	772 -> 2656 [style=invis]
+	772 -> 2632 [style=invis]
+	772 -> 2640 [style=invis]
+	1344 [label="-x-
+---
+o-o
+ 6 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1344 -> 2752 [style=invis]
+	1344 -> 2690 [style=invis]
+	1344 -> 2704 [style=invis]
+	1344 -> 2696 [style=invis]
+	1089 [label="ox-
+---
+o--
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1089 -> 2656 [style=invis]
+	1089 -> 2632 [style=invis]
+	1089 -> 2600 [style=invis]
+	1089 -> 2570 [style=invis]
+	1089 -> 2696 [style=invis]
+	1089 -> 2584 [style=invis]
+	1216 [label="-x-
+---
+oo-
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1216 -> 1728 [style=invis]
+	1216 -> 1920 [style=invis]
+	1216 -> 1696 [style=invis]
+	1216 -> 1668 [style=invis]
+	1216 -> 1672 [style=invis]
+	1216 -> 1680 [style=invis]
+	1120 [label="-x-
+--o
+o--
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1120 -> 6528 [style=invis]
+	1120 -> 6304 [style=invis]
+	1120 -> 6274 [style=invis]
+	1120 -> 6336 [style=invis]
+	1120 -> 6273 [style=invis]
+	1120 -> 6288 [style=invis]
+	1092 [label="-xo
+---
+o--
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1092 -> 34849 [style=invis]
+	1092 -> 34850 [style=invis]
+	1092 -> 34819 [style=invis]
+	1092 -> 34856 [style=invis]
+	1092 -> 34826 [style=invis]
+	1092 -> 34834 [style=invis]
+	1096 [label="-x-
+o--
+o--
+ 6 6" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1096 -> 1824 [style=invis]
+	1096 -> 1696 [style=invis]
+	1096 -> 1632 [style=invis]
+	1096 -> 1572 [style=invis]
+	1096 -> 1576 [style=invis]
+	1096 -> 1584 [style=invis]
+	1153 [label="ox-
+---
+-o-
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1153 -> 6432 [style=invis]
+	1153 -> 6304 [style=invis]
+	1153 -> 6178 [style=invis]
+	1153 -> 6177 [style=invis]
+	1153 -> 6240 [style=invis]
+	1153 -> 6192 [style=invis]
+	1029 [label="oxo
+---
+---
+ 6 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1029 -> 2570 [style=invis]
+	1029 -> 2578 [style=invis]
+	1029 -> 2626 [style=invis]
+	1029 -> 2690 [style=invis]
+	1033 [label="ox-
+o--
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1033 -> 1608 [style=invis]
+	1033 -> 1576 [style=invis]
+	1033 -> 1672 [style=invis]
+	1033 -> 1800 [style=invis]
+	1033 -> 1548 [style=invis]
+	1033 -> 1560 [style=invis]
+	1036 [label="-xo
+o--
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1036 -> 6178 [style=invis]
+	1036 -> 6147 [style=invis]
+	1036 -> 6210 [style=invis]
+	1036 -> 6274 [style=invis]
+	1036 -> 6402 [style=invis]
+	1036 -> 6162 [style=invis]
+	608 [label="x--
+--o
+o--
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	608 -> 6528 [style=invis]
+	608 -> 6432 [style=invis]
+	608 -> 6464 [style=invis]
+	608 -> 6402 [style=invis]
+	608 -> 6401 [style=invis]
+	608 -> 6416 [style=invis]
+	548 [label="x-o
+--o
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	548 -> 1856 [style=invis]
+	548 -> 1632 [style=invis]
+	548 -> 1728 [style=invis]
+	548 -> 1604 [style=invis]
+	548 -> 1608 [style=invis]
+	548 -> 1616 [style=invis]
+	518 [label="xoo
+---
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	518 -> 1796 [style=invis]
+	518 -> 1668 [style=invis]
+	518 -> 1572 [style=invis]
+	518 -> 1604 [style=invis]
+	518 -> 1548 [style=invis]
+	518 -> 1556 [style=invis]
+	580 [label="x-o
+---
+o--
+ 6 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	580 -> 34833 [style=invis]
+	580 -> 34819 [style=invis]
+	580 -> 35073 [style=invis]
+	580 -> 34849 [style=invis]
+	524 [label="x-o
+o--
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	524 -> 6209 [style=invis]
+	524 -> 6273 [style=invis]
+	524 -> 6147 [style=invis]
+	524 -> 6177 [style=invis]
+	524 -> 6401 [style=invis]
+	524 -> 6161 [style=invis]
+	8195 [label="oo-
+-x-
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8195 -> 1584 [style=invis]
+	8195 -> 1616 [style=invis]
+	8195 -> 1680 [style=invis]
+	8195 -> 1808 [style=invis]
+	8195 -> 1556 [style=invis]
+	8195 -> 1560 [style=invis]
+	8204 [label="--o
+ox-
+---
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8204 -> 6192 [style=invis]
+	8204 -> 6161 [style=invis]
+	8204 -> 6162 [style=invis]
+	8204 -> 6224 [style=invis]
+	8204 -> 6288 [style=invis]
+	8204 -> 6416 [style=invis]
+	8197 [label="o-o
+-x-
+---
+ 6 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8197 -> 2584 [style=invis]
+	8197 -> 2578 [style=invis]
+	8197 -> 2640 [style=invis]
+	8197 -> 2704 [style=invis]
+	8260 [label="--o
+-x-
+o--
+ 6 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8260 -> 34833 [style=invis]
+	8260 -> 34834 [style=invis]
+	672 [label="x--
+--o
+-o-
+ 6 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	672 -> 5408 [style=invis]
+	672 -> 5392 [style=invis]
+	672 -> 5380 [style=invis]
+	672 -> 5377 [style=invis]
+	546 [label="xo-
+--o
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	546 -> 5216 [style=invis]
+	546 -> 5380 [style=invis]
+	546 -> 5156 [style=invis]
+	546 -> 5125 [style=invis]
+	546 -> 5188 [style=invis]
+	546 -> 5140 [style=invis]
+	552 [label="x--
+o-o
+---
+ 6 6" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	552 -> 20545 [style=invis]
+	552 -> 20546 [style=invis]
+	552 -> 20483 [style=invis]
+	552 -> 20548 [style=invis]
+	552 -> 20485 [style=invis]
+	552 -> 20497 [style=invis]
+	522 [label="xo-
+o--
+---
+ 6 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	522 -> 5137 [style=invis]
+	522 -> 5125 [style=invis]
+	522 -> 5377 [style=invis]
+	522 -> 5153 [style=invis]
+	1160 [label="-x-
+o--
+-o-
+ 6 6" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1160 -> 5408 [style=invis]
+	1160 -> 5153 [style=invis]
+	1160 -> 5280 [style=invis]
+	1160 -> 5216 [style=invis]
+	1160 -> 5156 [style=invis]
+	1160 -> 5168 [style=invis]
+	1064 [label="-x-
+o-o
+---
+ 6 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1064 -> 20498 [style=invis]
+	1064 -> 20483 [style=invis]
+	1064 -> 20546 [style=invis]
+	1064 -> 20610 [style=invis]
+	8232 [label="---
+oxo
+---
+ 6 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8232 -> 20497 [style=invis]
+	8232 -> 20498 [style=invis]
+	8202 [label="-o-
+ox-
+---
+ 6 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8202 -> 5168 [style=invis]
+	8202 -> 5137 [style=invis]
+	8202 -> 5392 [style=invis]
+	8202 -> 5140 [style=invis]
+	9536 [label="-o-
+-o-
+x-x
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9536 -> 2768 [style=invis]
+	9536 -> 2706 [style=invis]
+	9536 -> 2712 [style=invis]
+	9281 [label="xo-
+-o-
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9281 -> 2616 [style=invis]
+	9281 -> 2712 [style=invis]
+	9281 -> 2672 [style=invis]
+	9281 -> 2648 [style=invis]
+	9281 -> 2586 [style=invis]
+	9312 [label="-o-
+-ox
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9312 -> 6544 [style=invis]
+	9312 -> 6289 [style=invis]
+	9312 -> 6290 [style=invis]
+	9312 -> 6320 [style=invis]
+	9312 -> 6352 [style=invis]
+	9408 [label="-o-
+-o-
+xx-
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	9408 -> 1744 [style=invis]
+	9408 -> 1936 [style=invis]
+	9408 -> 1712 [style=invis]
+	9408 -> 1684 [style=invis]
+	9408 -> 1688 [style=invis]
+	9284 [label="-ox
+-o-
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9284 -> 34865 [style=invis]
+	9284 -> 34866 [style=invis]
+	9284 -> 34835 [style=invis]
+	9284 -> 34872 [style=invis]
+	9284 -> 34842 [style=invis]
+	9288 [label="-o-
+xo-
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9288 -> 1840 [style=invis]
+	9288 -> 1712 [style=invis]
+	9288 -> 1648 [style=invis]
+	9288 -> 1588 [style=invis]
+	9288 -> 1592 [style=invis]
+	8992 [label="o--
+-ox
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8992 -> 1840 [style=invis]
+	8992 -> 1872 [style=invis]
+	8992 -> 1936 [style=invis]
+	8992 -> 1812 [style=invis]
+	8992 -> 1816 [style=invis]
+	8962 [label="ox-
+-o-
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8962 -> 6352 [style=invis]
+	8962 -> 6225 [style=invis]
+	8962 -> 6226 [style=invis]
+	8962 -> 6480 [style=invis]
+	8962 -> 6256 [style=invis]
+	8964 [label="o-x
+-o-
+--x
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	8964 -> 2896 [style=invis]
+	8964 -> 2672 [style=invis]
+	8964 -> 2642 [style=invis]
+	8964 -> 2768 [style=invis]
+	8964 -> 2648 [style=invis]
+	9345 [label="xo-
+-o-
+-x-
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	9345 -> 6448 [style=invis]
+	9345 -> 6193 [style=invis]
+	9345 -> 6194 [style=invis]
+	9345 -> 6256 [style=invis]
+	9345 -> 6320 [style=invis]
+	9221 [label="xox
+-o-
+---
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9221 -> 2586 [style=invis]
+	9221 -> 2642 [style=invis]
+	9221 -> 2706 [style=invis]
+	9225 [label="xo-
+xo-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9225 -> 1592 [style=invis]
+	9225 -> 1688 [style=invis]
+	9225 -> 1816 [style=invis]
+	9225 -> 1624 [style=invis]
+	9225 -> 1564 [style=invis]
+	9228 [label="-ox
+xo-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9228 -> 6194 [style=invis]
+	9228 -> 6163 [style=invis]
+	9228 -> 6226 [style=invis]
+	9228 -> 6418 [style=invis]
+	9228 -> 6290 [style=invis]
+	8800 [label="o--
+-ox
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8800 -> 6544 [style=invis]
+	8800 -> 6417 [style=invis]
+	8800 -> 6448 [style=invis]
+	8800 -> 6480 [style=invis]
+	8800 -> 6418 [style=invis]
+	8740 [label="o-x
+-ox
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8740 -> 1872 [style=invis]
+	8740 -> 1648 [style=invis]
+	8740 -> 1744 [style=invis]
+	8740 -> 1620 [style=invis]
+	8740 -> 1624 [style=invis]
+	8710 [label="oxx
+-o-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8710 -> 1684 [style=invis]
+	8710 -> 1812 [style=invis]
+	8710 -> 1588 [style=invis]
+	8710 -> 1620 [style=invis]
+	8710 -> 1564 [style=invis]
+	8772 [label="o-x
+-o-
+x--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8772 -> 34865 [style=invis]
+	8772 -> 34835 [style=invis]
+	8772 -> 35089 [style=invis]
+	8716 [label="o-x
+xo-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8716 -> 6225 [style=invis]
+	8716 -> 6193 [style=invis]
+	8716 -> 6289 [style=invis]
+	8716 -> 6163 [style=invis]
+	8716 -> 6417 [style=invis]
+	9256 [label="-o-
+xox
+---
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9256 -> 20562 [style=invis]
+	9256 -> 20499 [style=invis]
+	9256 -> 20626 [style=invis]
+	9352 [label="-o-
+xo-
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9352 -> 5424 [style=invis]
+	9352 -> 5169 [style=invis]
+	9352 -> 5232 [style=invis]
+	9352 -> 5296 [style=invis]
+	9352 -> 5172 [style=invis]
+	8738 [label="ox-
+-ox
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8738 -> 5232 [style=invis]
+	8738 -> 5204 [style=invis]
+	8738 -> 5172 [style=invis]
+	8738 -> 5141 [style=invis]
+	8738 -> 5396 [style=invis]
+	8744 [label="o--
+xox
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8744 -> 20561 [style=invis]
+	8744 -> 20562 [style=invis]
+	8744 -> 20499 [style=invis]
+	8744 -> 20564 [style=invis]
+	8744 -> 20501 [style=invis]
+	8714 [label="ox-
+xo-
+---
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8714 -> 5169 [style=invis]
+	8714 -> 5141 [style=invis]
+	8714 -> 5393 [style=invis]
+	8864 [label="o--
+-ox
+-x-
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	8864 -> 5424 [style=invis]
+	8864 -> 5393 [style=invis]
+	8864 -> 5396 [style=invis]
+	1824 [label="oo-
+--x
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1824 -> 1952 [style=invis]
+	1824 -> 1888 [style=invis]
+	1824 -> 1828 [style=invis]
+	1824 -> 1832 [style=invis]
+	1824 -> 1840 [style=invis]
+	1856 [label="oo-
+---
+x-x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1856 -> 3008 [style=invis]
+	1856 -> 2784 [style=invis]
+	1856 -> 2754 [style=invis]
+	1856 -> 2760 [style=invis]
+	1856 -> 2768 [style=invis]
+	1920 [label="oo-
+---
+-xx
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1920 -> 1984 [style=invis]
+	1920 -> 1952 [style=invis]
+	1920 -> 1924 [style=invis]
+	1920 -> 1928 [style=invis]
+	1920 -> 1936 [style=invis]
+	1796 [label="oox
+---
+--x
+ 5 5" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	1796 -> 2760 [style=invis]
+	1796 -> 2888 [style=invis]
+	1796 -> 2634 [style=invis]
+	1796 -> 2664 [style=invis]
+	1796 -> 2648 [style=invis]
+	1800 [label="oo-
+x--
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1800 -> 6592 [style=invis]
+	1800 -> 6337 [style=invis]
+	1800 -> 6338 [style=invis]
+	1800 -> 6368 [style=invis]
+	1800 -> 6352 [style=invis]
+	1808 [label="oo-
+-x-
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1808 -> 9120 [style=invis]
+	1808 -> 9056 [style=invis]
+	1808 -> 8994 [style=invis]
+	1808 -> 8996 [style=invis]
+	1808 -> 9000 [style=invis]
+	6336 [label="--o
+o--
+xx-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6336 -> 1864 [style=invis]
+	6336 -> 1832 [style=invis]
+	6336 -> 1928 [style=invis]
+	6336 -> 1804 [style=invis]
+	6336 -> 1816 [style=invis]
+	6209 [label="x-o
+o--
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6209 -> 2754 [style=invis]
+	6209 -> 2882 [style=invis]
+	6209 -> 2658 [style=invis]
+	6209 -> 2634 [style=invis]
+	6209 -> 2642 [style=invis]
+	6210 [label="-xo
+o--
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6210 -> 6338 [style=invis]
+	6210 -> 6211 [style=invis]
+	6210 -> 6466 [style=invis]
+	6210 -> 6242 [style=invis]
+	6210 -> 6226 [style=invis]
+	6464 [label="--o
+o--
+x-x
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6464 -> 2784 [style=invis]
+	6464 -> 2658 [style=invis]
+	6464 -> 2888 [style=invis]
+	6464 -> 2664 [style=invis]
+	6464 -> 2672 [style=invis]
+	6240 [label="--o
+o-x
+x--
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6240 -> 6496 [style=invis]
+	6240 -> 6241 [style=invis]
+	6240 -> 6242 [style=invis]
+	6240 -> 6368 [style=invis]
+	6240 -> 6256 [style=invis]
+	6224 [label="--o
+ox-
+x--
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6224 -> 8994 [style=invis]
+	6224 -> 8966 [style=invis]
+	6224 -> 9000 [style=invis]
+	6224 -> 8970 [style=invis]
+	6224 -> 8972 [style=invis]
+	2880 [label="o-o
+---
+x-x
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2880 -> 3008 [style=invis]
+	2880 -> 2896 [style=invis]
+	2880 -> 2888 [style=invis]
+	2880 -> 2882 [style=invis]
+	2752 [label="o-o
+---
+xx-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2752 -> 1984 [style=invis]
+	2752 -> 1888 [style=invis]
+	2752 -> 1860 [style=invis]
+	2752 -> 1864 [style=invis]
+	2752 -> 1872 [style=invis]
+	2626 [label="oxo
+---
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2626 -> 6465 [style=invis]
+	2626 -> 6337 [style=invis]
+	2626 -> 6211 [style=invis]
+	2626 -> 6241 [style=invis]
+	2626 -> 6225 [style=invis]
+	2656 [label="o-o
+--x
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2656 -> 6592 [style=invis]
+	2656 -> 6465 [style=invis]
+	2656 -> 6466 [style=invis]
+	2656 -> 6496 [style=invis]
+	2656 -> 6480 [style=invis]
+	2632 [label="o-o
+x--
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2632 -> 1924 [style=invis]
+	2632 -> 1828 [style=invis]
+	2632 -> 1860 [style=invis]
+	2632 -> 1804 [style=invis]
+	2632 -> 1812 [style=invis]
+	2640 [label="o-o
+-x-
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2640 -> 9056 [style=invis]
+	2640 -> 8996 [style=invis]
+	2640 -> 9028 [style=invis]
+	2640 -> 8966 [style=invis]
+	2640 -> 8972 [style=invis]
+	2690 [label="oxo
+---
+-x-
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2690 -> 20561 [style=invis]
+	2690 -> 20547 [style=invis]
+	2690 -> 20549 [style=invis]
+	2704 [label="o-o
+-x-
+-x-
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2704 -> 9664 [style=invis]
+	2704 -> 9537 [style=invis]
+	2704 -> 9544 [style=invis]
+	2696 [label="o-o
+x--
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2696 -> 5472 [style=invis]
+	2696 -> 5412 [style=invis]
+	2696 -> 5381 [style=invis]
+	2696 -> 5444 [style=invis]
+	2696 -> 5396 [style=invis]
+	2600 [label="o-o
+x-x
+---
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2600 -> 20549 [style=invis]
+	2600 -> 20501 [style=invis]
+	2600 -> 20613 [style=invis]
+	2600 -> 20487 [style=invis]
+	2570 [label="oxo
+x--
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2570 -> 5217 [style=invis]
+	2570 -> 5381 [style=invis]
+	2570 -> 5157 [style=invis]
+	2570 -> 5189 [style=invis]
+	2570 -> 5141 [style=invis]
+	2584 [label="o-o
+xx-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	2584 -> 9537 [style=invis]
+	2584 -> 9409 [style=invis]
+	2584 -> 9313 [style=invis]
+	2584 -> 9285 [style=invis]
+	2584 -> 9289 [style=invis]
+	1728 [label="oo-
+---
+xx-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1728 -> 1984 [style=invis]
+	1728 -> 1760 [style=invis]
+	1728 -> 1732 [style=invis]
+	1728 -> 1736 [style=invis]
+	1728 -> 1744 [style=invis]
+	1696 [label="oo-
+--x
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1696 -> 5536 [style=invis]
+	1696 -> 5409 [style=invis]
+	1696 -> 5472 [style=invis]
+	1696 -> 5412 [style=invis]
+	1696 -> 5424 [style=invis]
+	1668 [label="oox
+---
+-x-
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	1668 -> 6560 [style=invis]
+	1668 -> 6433 [style=invis]
+	1668 -> 6496 [style=invis]
+	1668 -> 6434 [style=invis]
+	1668 -> 6448 [style=invis]
+	1672 [label="oo-
+x--
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1672 -> 5220 [style=invis]
+	1672 -> 5284 [style=invis]
+	1672 -> 5412 [style=invis]
+	1672 -> 5157 [style=invis]
+	1672 -> 5172 [style=invis]
+	1680 [label="oo-
+-x-
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1680 -> 9664 [style=invis]
+	1680 -> 9409 [style=invis]
+	1680 -> 9440 [style=invis]
+	1680 -> 9412 [style=invis]
+	1680 -> 9416 [style=invis]
+	6528 [label="--o
+o--
+-xx
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6528 -> 1888 [style=invis]
+	6528 -> 1760 [style=invis]
+	6528 -> 1636 [style=invis]
+	6528 -> 1640 [style=invis]
+	6528 -> 1648 [style=invis]
+	6304 [label="--o
+o-x
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6304 -> 5472 [style=invis]
+	6304 -> 5217 [style=invis]
+	6304 -> 5284 [style=invis]
+	6304 -> 5220 [style=invis]
+	6304 -> 5232 [style=invis]
+	6274 [label="-xo
+o--
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6274 -> 20547 [style=invis]
+	6274 -> 20611 [style=invis]
+	6274 -> 20613 [style=invis]
+	6274 -> 20550 [style=invis]
+	6274 -> 20562 [style=invis]
+	6273 [label="x-o
+o--
+-x-
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6273 -> 6434 [style=invis]
+	6273 -> 6403 [style=invis]
+	6273 -> 6466 [style=invis]
+	6273 -> 6530 [style=invis]
+	6273 -> 6418 [style=invis]
+	6288 [label="--o
+ox-
+-x-
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6288 -> 9440 [style=invis]
+	6288 -> 9313 [style=invis]
+	6288 -> 9316 [style=invis]
+	6288 -> 9544 [style=invis]
+	6288 -> 9320 [style=invis]
+	34849 [label="x-o
+--x
+o--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34849 -> 6465 [style=invis]
+	34849 -> 6433 [style=invis]
+	34849 -> 6529 [style=invis]
+	34849 -> 6403 [style=invis]
+	34849 -> 6417 [style=invis]
+	34850 [label="-xo
+--x
+o--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34850 -> 5409 [style=invis]
+	34850 -> 5381 [style=invis]
+	34850 -> 5393 [style=invis]
+	34819 [label="xxo
+---
+o--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34819 -> 1636 [style=invis]
+	34819 -> 1732 [style=invis]
+	34819 -> 1860 [style=invis]
+	34819 -> 1612 [style=invis]
+	34819 -> 1620 [style=invis]
+	34856 [label="--o
+x-x
+o--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34856 -> 20564 [style=invis]
+	34856 -> 20549 [style=invis]
+	34856 -> 20550 [style=invis]
+	34826 [label="-xo
+x--
+o--
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34826 -> 5220 [style=invis]
+	34826 -> 5204 [style=invis]
+	34826 -> 5189 [style=invis]
+	34826 -> 5444 [style=invis]
+	34834 [label="-xo
+-x-
+o--
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	34834 -> 9537 [style=invis]
+	34834 -> 9316 [style=invis]
+	34834 -> 9412 [style=invis]
+	34834 -> 9285 [style=invis]
+	34834 -> 9292 [style=invis]
+	1632 [label="oo-
+--x
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1632 -> 6592 [style=invis]
+	1632 -> 6529 [style=invis]
+	1632 -> 6530 [style=invis]
+	1632 -> 6560 [style=invis]
+	1632 -> 6544 [style=invis]
+	1572 [label="oox
+--x
+---
+ 5 5" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	1572 -> 1736 [style=invis]
+	1572 -> 1864 [style=invis]
+	1572 -> 1640 [style=invis]
+	1572 -> 1612 [style=invis]
+	1572 -> 1624 [style=invis]
+	1576 [label="oo-
+x-x
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1576 -> 20547 [style=invis]
+	1576 -> 20611 [style=invis]
+	1576 -> 20550 [style=invis]
+	1576 -> 20487 [style=invis]
+	1576 -> 20499 [style=invis]
+	1584 [label="oo-
+-xx
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1584 -> 9416 [style=invis]
+	1584 -> 9289 [style=invis]
+	1584 -> 9544 [style=invis]
+	1584 -> 9320 [style=invis]
+	1584 -> 9292 [style=invis]
+	6432 [label="--o
+o-x
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6432 -> 1700 [style=invis]
+	6432 -> 1732 [style=invis]
+	6432 -> 1924 [style=invis]
+	6432 -> 1676 [style=invis]
+	6432 -> 1684 [style=invis]
+	6178 [label="-xo
+o-x
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6178 -> 5217 [style=invis]
+	6178 -> 5281 [style=invis]
+	6178 -> 5409 [style=invis]
+	6178 -> 5157 [style=invis]
+	6178 -> 5169 [style=invis]
+	6177 [label="x-o
+o-x
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6177 -> 6241 [style=invis]
+	6177 -> 6305 [style=invis]
+	6177 -> 6179 [style=invis]
+	6177 -> 6433 [style=invis]
+	6177 -> 6193 [style=invis]
+	6192 [label="--o
+oxx
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6192 -> 9409 [style=invis]
+	6192 -> 9412 [style=invis]
+	6192 -> 9349 [style=invis]
+	6192 -> 9353 [style=invis]
+	6192 -> 9356 [style=invis]
+	2578 [label="oxo
+-x-
+---
+ 5 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	2578 -> 9285 [style=invis]
+	2578 -> 9229 [style=invis]
+	2578 -> 9349 [style=invis]
+	1608 [label="oo-
+x--
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1608 -> 1700 [style=invis]
+	1608 -> 1636 [style=invis]
+	1608 -> 1828 [style=invis]
+	1608 -> 1580 [style=invis]
+	1608 -> 1588 [style=invis]
+	1548 [label="oox
+x--
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1548 -> 6403 [style=invis]
+	1548 -> 6179 [style=invis]
+	1548 -> 6211 [style=invis]
+	1548 -> 6275 [style=invis]
+	1548 -> 6163 [style=invis]
+	1560 [label="oo-
+xx-
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1560 -> 9316 [style=invis]
+	1560 -> 9289 [style=invis]
+	1560 -> 9353 [style=invis]
+	1560 -> 9257 [style=invis]
+	1560 -> 9229 [style=invis]
+	6147 [label="xxo
+o--
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6147 -> 1676 [style=invis]
+	6147 -> 1804 [style=invis]
+	6147 -> 1580 [style=invis]
+	6147 -> 1612 [style=invis]
+	6147 -> 1564 [style=invis]
+	6402 [label="-xo
+o--
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6402 -> 6337 [style=invis]
+	6402 -> 6529 [style=invis]
+	6402 -> 6275 [style=invis]
+	6402 -> 6305 [style=invis]
+	6402 -> 6289 [style=invis]
+	6162 [label="-xo
+ox-
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6162 -> 9313 [style=invis]
+	6162 -> 9257 [style=invis]
+	6162 -> 9292 [style=invis]
+	6162 -> 9229 [style=invis]
+	6162 -> 9356 [style=invis]
+	6401 [label="x-o
+o--
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6401 -> 34977 [style=invis]
+	6401 -> 35075 [style=invis]
+	6401 -> 34851 [style=invis]
+	6401 -> 34857 [style=invis]
+	6401 -> 34865 [style=invis]
+	6416 [label="--o
+ox-
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6416 -> 9056 [style=invis]
+	6416 -> 8802 [style=invis]
+	6416 -> 8804 [style=invis]
+	6416 -> 8868 [style=invis]
+	6416 -> 8808 [style=invis]
+	1604 [label="oox
+---
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1604 -> 34851 [style=invis]
+	1604 -> 35075 [style=invis]
+	1604 -> 34857 [style=invis]
+	1604 -> 34827 [style=invis]
+	1604 -> 34835 [style=invis]
+	1616 [label="oo-
+-x-
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	1616 -> 8804 [style=invis]
+	1616 -> 8868 [style=invis]
+	1616 -> 8996 [style=invis]
+	1616 -> 8742 [style=invis]
+	1616 -> 8748 [style=invis]
+	1556 [label="oox
+-x-
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	1556 -> 8774 [style=invis]
+	1556 -> 8966 [style=invis]
+	1556 -> 8808 [style=invis]
+	1556 -> 8742 [style=invis]
+	1556 -> 8718 [style=invis]
+	34833 [label="x-o
+-x-
+o--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	34833 -> 8804 [style=invis]
+	34833 -> 8774 [style=invis]
+	34833 -> 9028 [style=invis]
+	35073 [label="x-o
+---
+o-x
+ 5 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35073 -> 35089 [style=invis]
+	35073 -> 35075 [style=invis]
+	6161 [label="x-o
+ox-
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6161 -> 8802 [style=invis]
+	6161 -> 8774 [style=invis]
+	6161 -> 8748 [style=invis]
+	6161 -> 8972 [style=invis]
+	6161 -> 8718 [style=invis]
+	5408 [label="-o-
+o-x
+--x
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5408 -> 1952 [style=invis]
+	5408 -> 1760 [style=invis]
+	5408 -> 1700 [style=invis]
+	5408 -> 1704 [style=invis]
+	5408 -> 1712 [style=invis]
+	5392 [label="-o-
+ox-
+--x
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5392 -> 9120 [style=invis]
+	5392 -> 8866 [style=invis]
+	5392 -> 8868 [style=invis]
+	5380 [label="-ox
+o--
+--x
+ 5 5" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	5380 -> 2784 [style=invis]
+	5380 -> 2760 [style=invis]
+	5380 -> 2728 [style=invis]
+	5380 -> 2698 [style=invis]
+	5380 -> 2712 [style=invis]
+	5377 [label="xo-
+o--
+--x
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5377 -> 34866 [style=invis]
+	5377 -> 34851 [style=invis]
+	5377 -> 34858 [style=invis]
+	5216 [label="-o-
+o-x
+x--
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	5216 -> 6560 [style=invis]
+	5216 -> 6305 [style=invis]
+	5216 -> 6306 [style=invis]
+	5216 -> 6368 [style=invis]
+	5216 -> 6320 [style=invis]
+	5156 [label="-ox
+o-x
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5156 -> 1736 [style=invis]
+	5156 -> 1928 [style=invis]
+	5156 -> 1704 [style=invis]
+	5156 -> 1676 [style=invis]
+	5156 -> 1688 [style=invis]
+	5125 [label="xox
+o--
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5125 -> 2658 [style=invis]
+	5125 -> 2602 [style=invis]
+	5125 -> 2634 [style=invis]
+	5125 -> 2698 [style=invis]
+	5125 -> 2586 [style=invis]
+	5188 [label="-ox
+o--
+x--
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5188 -> 34977 [style=invis]
+	5188 -> 34842 [style=invis]
+	5188 -> 34827 [style=invis]
+	5188 -> 34858 [style=invis]
+	5140 [label="-ox
+ox-
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	5140 -> 8866 [style=invis]
+	5140 -> 8994 [style=invis]
+	5140 -> 8802 [style=invis]
+	5140 -> 8742 [style=invis]
+	5140 -> 8746 [style=invis]
+	20545 [label="x--
+o-o
+x--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20545 -> 2754 [style=invis]
+	20545 -> 2698 [style=invis]
+	20545 -> 2706 [style=invis]
+	20546 [label="-x-
+o-o
+x--
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20546 -> 6306 [style=invis]
+	20546 -> 6530 [style=invis]
+	20546 -> 6338 [style=invis]
+	20546 -> 6275 [style=invis]
+	20546 -> 6290 [style=invis]
+	20483 [label="xx-
+o-o
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20483 -> 1704 [style=invis]
+	20483 -> 1832 [style=invis]
+	20483 -> 1640 [style=invis]
+	20483 -> 1580 [style=invis]
+	20483 -> 1592 [style=invis]
+	20548 [label="--x
+o-o
+x--
+ 5 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20548 -> 34872 [style=invis]
+	20548 -> 34857 [style=invis]
+	20548 -> 34858 [style=invis]
+	20485 [label="x-x
+o-o
+---
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20485 -> 2616 [style=invis]
+	20485 -> 2602 [style=invis]
+	20485 -> 2664 [style=invis]
+	20485 -> 2728 [style=invis]
+	20497 [label="x--
+oxo
+---
+ 5 5" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	20497 -> 8866 [style=invis]
+	20497 -> 8808 [style=invis]
+	20497 -> 9000 [style=invis]
+	20497 -> 8746 [style=invis]
+	20497 -> 8748 [style=invis]
+	5137 [label="xo-
+ox-
+---
+ 5 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	5137 -> 8746 [style=invis]
+	5137 -> 8970 [style=invis]
+	5137 -> 8718 [style=invis]
+	5153 [label="xo-
+o-x
+---
+ 5 5" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	5153 -> 6306 [style=invis]
+	5153 -> 6179 [style=invis]
+	5153 -> 6434 [style=invis]
+	5153 -> 6242 [style=invis]
+	5153 -> 6194 [style=invis]
+	5280 [label="-o-
+o-x
+-x-
+ 5 4" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5280 -> 5536 [style=invis]
+	5280 -> 5281 [style=invis]
+	5280 -> 5284 [style=invis]
+	5280 -> 5296 [style=invis]
+	5168 [label="-o-
+oxx
+---
+ 5 5" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5168 -> 9440 [style=invis]
+	5168 -> 9416 [style=invis]
+	5168 -> 9353 [style=invis]
+	5168 -> 9384 [style=invis]
+	5168 -> 9356 [style=invis]
+	20498 [label="-x-
+oxo
+---
+ 5 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	20498 -> 9320 [style=invis]
+	20498 -> 9257 [style=invis]
+	20498 -> 9384 [style=invis]
+	20610 [label="-x-
+o-o
+-x-
+ 5 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	20610 -> 20626 [style=invis]
+	20610 -> 20611 [style=invis]
+	2768 [label="x-x
+-o-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2768 -> 10176 [style=invis]
+	2768 -> 10056 [style=invis]
+	2768 -> 10080 [style=invis]
+	2768 -> 10052 [style=invis]
+	2706 [label="xox
+-o-
+-o-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	2712 [label="x-x
+oo-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2712 -> 13664 [style=invis]
+	2712 -> 13604 [style=invis]
+	2712 -> 13573 [style=invis]
+	2712 -> 13636 [style=invis]
+	2616 [label="x-x
+ooo
+---
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	2672 [label="x-x
+-oo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2672 -> 14784 [style=invis]
+	2672 -> 14657 [style=invis]
+	2672 -> 14658 [style=invis]
+	2672 -> 14688 [style=invis]
+	2648 [label="x-x
+oo-
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2648 -> 10116 [style=invis]
+	2648 -> 10020 [style=invis]
+	2648 -> 9996 [style=invis]
+	2648 -> 10052 [style=invis]
+	2586 [label="xox
+oo-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	2586 -> 13409 [style=invis]
+	2586 -> 13573 [style=invis]
+	2586 -> 13381 [style=invis]
+	2586 -> 13349 [style=invis]
+	6544 [label="--x
+xo-
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6544 -> 10080 [style=invis]
+	6544 -> 9952 [style=invis]
+	6544 -> 9828 [style=invis]
+	6544 -> 9832 [style=invis]
+	6289 [label="o-x
+xo-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6289 -> 14626 [style=invis]
+	6289 -> 14595 [style=invis]
+	6289 -> 14658 [style=invis]
+	6289 -> 14722 [style=invis]
+	6290 [label="-ox
+xo-
+-o-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6320 [label="--x
+xoo
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6320 -> 13664 [style=invis]
+	6320 -> 13409 [style=invis]
+	6320 -> 13476 [style=invis]
+	6320 -> 13412 [style=invis]
+	6352 [label="--x
+xo-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6352 -> 10056 [style=invis]
+	6352 -> 10024 [style=invis]
+	6352 -> 9996 [style=invis]
+	6352 -> 10120 [style=invis]
+	1744 [label="xx-
+-o-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1744 -> 10176 [style=invis]
+	1744 -> 9952 [style=invis]
+	1744 -> 9924 [style=invis]
+	1744 -> 9928 [style=invis]
+	1936 [label="xx-
+-o-
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1936 -> 10176 [style=invis]
+	1936 -> 10116 [style=invis]
+	1936 -> 10120 [style=invis]
+	1936 -> 10144 [style=invis]
+	1712 [label="xx-
+-oo
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1712 -> 13728 [style=invis]
+	1712 -> 13601 [style=invis]
+	1712 -> 13664 [style=invis]
+	1712 -> 13604 [style=invis]
+	1684 [label="xxo
+-o-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	1684 -> 14752 [style=invis]
+	1684 -> 14625 [style=invis]
+	1684 -> 14626 [style=invis]
+	1684 -> 14688 [style=invis]
+	1688 [label="xx-
+oo-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1688 -> 13412 [style=invis]
+	1688 -> 13476 [style=invis]
+	1688 -> 13604 [style=invis]
+	1688 -> 13349 [style=invis]
+	34865 [label="o-x
+-oo
+x--
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	34865 -> 14657 [style=invis]
+	34865 -> 14625 [style=invis]
+	34865 -> 14721 [style=invis]
+	34865 -> 14595 [style=invis]
+	34866 [label="-ox
+-oo
+x--
+ 4 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	34866 -> 13601 [style=invis]
+	34866 -> 13573 [style=invis]
+	34835 [label="oox
+-o-
+x--
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	34835 -> 9828 [style=invis]
+	34835 -> 9924 [style=invis]
+	34835 -> 9804 [style=invis]
+	34835 -> 10052 [style=invis]
+	34872 [label="--x
+ooo
+x--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	34842 [label="-ox
+oo-
+x--
+ 4 3" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	34842 -> 13412 [style=invis]
+	34842 -> 13381 [style=invis]
+	34842 -> 13636 [style=invis]
+	1840 [label="xx-
+-oo
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1840 -> 10144 [style=invis]
+	1840 -> 10024 [style=invis]
+	1840 -> 10020 [style=invis]
+	1840 -> 10080 [style=invis]
+	1648 [label="xx-
+-oo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1648 -> 14784 [style=invis]
+	1648 -> 14721 [style=invis]
+	1648 -> 14722 [style=invis]
+	1648 -> 14752 [style=invis]
+	1588 [label="xxo
+-oo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1588 -> 9928 [style=invis]
+	1588 -> 10056 [style=invis]
+	1588 -> 9832 [style=invis]
+	1588 -> 9804 [style=invis]
+	1592 [label="xx-
+ooo
+---
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1872 [label="xx-
+-o-
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1872 -> 11200 [style=invis]
+	1872 -> 10946 [style=invis]
+	1872 -> 10976 [style=invis]
+	1872 -> 10952 [style=invis]
+	1812 [label="xxo
+-o-
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1812 -> 10952 [style=invis]
+	1812 -> 10826 [style=invis]
+	1812 -> 11080 [style=invis]
+	1812 -> 10856 [style=invis]
+	1816 [label="xx-
+oo-
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1816 -> 14784 [style=invis]
+	1816 -> 14529 [style=invis]
+	1816 -> 14530 [style=invis]
+	1816 -> 14560 [style=invis]
+	6225 [label="o-x
+xo-
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6225 -> 10946 [style=invis]
+	6225 -> 10826 [style=invis]
+	6225 -> 11074 [style=invis]
+	6225 -> 10850 [style=invis]
+	6226 [label="-ox
+xo-
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6226 -> 14530 [style=invis]
+	6226 -> 14403 [style=invis]
+	6226 -> 14658 [style=invis]
+	6226 -> 14434 [style=invis]
+	6480 [label="--x
+xo-
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6480 -> 11080 [style=invis]
+	6480 -> 10850 [style=invis]
+	6480 -> 10976 [style=invis]
+	6480 -> 10856 [style=invis]
+	6256 [label="--x
+xoo
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6256 -> 14688 [style=invis]
+	6256 -> 14433 [style=invis]
+	6256 -> 14434 [style=invis]
+	6256 -> 14560 [style=invis]
+	2896 [label="x-x
+-o-
+o-o
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2896 -> 11200 [style=invis]
+	2896 -> 11074 [style=invis]
+	2896 -> 11080 [style=invis]
+	2642 [label="xox
+-o-
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	2642 -> 14657 [style=invis]
+	2642 -> 14529 [style=invis]
+	2642 -> 14403 [style=invis]
+	2642 -> 14433 [style=invis]
+	6448 [label="--x
+xoo
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6448 -> 9868 [style=invis]
+	6448 -> 9892 [style=invis]
+	6448 -> 9924 [style=invis]
+	6448 -> 10116 [style=invis]
+	6193 [label="o-x
+xoo
+---
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6193 -> 14625 [style=invis]
+	6193 -> 14371 [style=invis]
+	6193 -> 14433 [style=invis]
+	6193 -> 14497 [style=invis]
+	6194 [label="-ox
+xoo
+---
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6194 -> 13409 [style=invis]
+	6194 -> 13601 [style=invis]
+	6194 -> 13473 [style=invis]
+	6194 -> 13349 [style=invis]
+	1624 [label="xx-
+oo-
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1624 -> 9828 [style=invis]
+	1624 -> 9892 [style=invis]
+	1624 -> 10020 [style=invis]
+	1624 -> 9772 [style=invis]
+	1564 [label="xxo
+oo-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1564 -> 14595 [style=invis]
+	1564 -> 14403 [style=invis]
+	1564 -> 14371 [style=invis]
+	1564 -> 14467 [style=invis]
+	6163 [label="oox
+xo-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6163 -> 9868 [style=invis]
+	6163 -> 9772 [style=invis]
+	6163 -> 9996 [style=invis]
+	6163 -> 9804 [style=invis]
+	6418 [label="-ox
+xo-
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6418 -> 14529 [style=invis]
+	6418 -> 14721 [style=invis]
+	6418 -> 14467 [style=invis]
+	6418 -> 14497 [style=invis]
+	6417 [label="o-x
+xo-
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1620 [label="xxo
+-o-
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35089 [label="o-x
+-o-
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20562 [label="-o-
+xox
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20562 -> 14498 [style=invis]
+	20562 -> 14530 [style=invis]
+	20562 -> 14467 [style=invis]
+	20562 -> 14722 [style=invis]
+	20499 [label="oo-
+xox
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20499 -> 9832 [style=invis]
+	20499 -> 10024 [style=invis]
+	20499 -> 9772 [style=invis]
+	20499 -> 9896 [style=invis]
+	20626 [label="-o-
+xox
+-o-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5424 [label="-x-
+xoo
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5424 -> 10144 [style=invis]
+	5424 -> 9952 [style=invis]
+	5424 -> 9892 [style=invis]
+	5424 -> 9896 [style=invis]
+	5169 [label="ox-
+xoo
+---
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5169 -> 14498 [style=invis]
+	5169 -> 14626 [style=invis]
+	5169 -> 14371 [style=invis]
+	5169 -> 14434 [style=invis]
+	5232 [label="-x-
+xoo
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5232 -> 14752 [style=invis]
+	5232 -> 14497 [style=invis]
+	5232 -> 14498 [style=invis]
+	5232 -> 14560 [style=invis]
+	5296 [label="-x-
+xoo
+-o-
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	5296 -> 13728 [style=invis]
+	5296 -> 13473 [style=invis]
+	5296 -> 13476 [style=invis]
+	5172 [label="-xo
+xoo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5172 -> 9928 [style=invis]
+	5172 -> 9868 [style=invis]
+	5172 -> 10120 [style=invis]
+	5172 -> 9896 [style=invis]
+	5204 [label="-xo
+xo-
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5141 [label="oxo
+xo-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5141 -> 10794 [style=invis]
+	5141 -> 10826 [style=invis]
+	5141 -> 10850 [style=invis]
+	5141 -> 10890 [style=invis]
+	5396 [label="-xo
+xo-
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5396 -> 10952 [style=invis]
+	5396 -> 10890 [style=invis]
+	5396 -> 10976 [style=invis]
+	5396 -> 10920 [style=invis]
+	20561 [label="o--
+xox
+o--
+ 4 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20561 -> 10946 [style=invis]
+	20561 -> 10890 [style=invis]
+	20564 [label="--o
+xox
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20501 [label="o-o
+xox
+---
+ 4 3" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	20501 -> 10856 [style=invis]
+	20501 -> 10794 [style=invis]
+	20501 -> 10920 [style=invis]
+	5393 [label="ox-
+xo-
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1952 [label="xx-
+--o
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1952 -> 6048 [style=invis]
+	1952 -> 5936 [style=invis]
+	1952 -> 5984 [style=invis]
+	1952 -> 5924 [style=invis]
+	1888 [label="xx-
+--o
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1888 -> 7104 [style=invis]
+	1888 -> 7042 [style=invis]
+	1888 -> 7056 [style=invis]
+	1888 -> 7072 [style=invis]
+	1828 [label="xxo
+--o
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1832 [label="xx-
+o-o
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1832 -> 21440 [style=invis]
+	1832 -> 21378 [style=invis]
+	1832 -> 21380 [style=invis]
+	1832 -> 21392 [style=invis]
+	3008 [label="x-x
+---
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	2784 [label="x-x
+--o
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2784 -> 7616 [style=invis]
+	2784 -> 7489 [style=invis]
+	2784 -> 7504 [style=invis]
+	2784 -> 7520 [style=invis]
+	2754 [label="xox
+---
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	2754 -> 21380 [style=invis]
+	2754 -> 21268 [style=invis]
+	2754 -> 21254 [style=invis]
+	2754 -> 21316 [style=invis]
+	2760 [label="x-x
+o--
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2760 -> 5984 [style=invis]
+	2760 -> 5924 [style=invis]
+	2760 -> 5908 [style=invis]
+	2760 -> 5956 [style=invis]
+	1984 [label="xx-
+---
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1924 [label="xxo
+---
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1924 -> 7072 [style=invis]
+	1924 -> 6960 [style=invis]
+	1924 -> 7008 [style=invis]
+	1924 -> 6946 [style=invis]
+	1928 [label="xx-
+o--
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1928 -> 7616 [style=invis]
+	1928 -> 7392 [style=invis]
+	1928 -> 7361 [style=invis]
+	1928 -> 7376 [style=invis]
+	2888 [label="x-x
+o--
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2888 -> 7104 [style=invis]
+	2888 -> 6978 [style=invis]
+	2888 -> 6992 [style=invis]
+	2888 -> 7008 [style=invis]
+	2634 [label="xox
+o--
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2634 -> 7489 [style=invis]
+	2634 -> 7249 [style=invis]
+	2634 -> 7361 [style=invis]
+	2634 -> 7265 [style=invis]
+	2664 [label="x-x
+o-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2664 -> 21440 [style=invis]
+	2664 -> 21314 [style=invis]
+	2664 -> 21328 [style=invis]
+	2664 -> 21316 [style=invis]
+	6592 [label="--x
+x--
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6337 [label="o-x
+x--
+oo-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6337 -> 6946 [style=invis]
+	6337 -> 6930 [style=invis]
+	6337 -> 6978 [style=invis]
+	6337 -> 7042 [style=invis]
+	6338 [label="-ox
+x--
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6338 -> 21266 [style=invis]
+	6338 -> 21314 [style=invis]
+	6338 -> 21254 [style=invis]
+	6338 -> 21378 [style=invis]
+	6368 [label="--x
+x-o
+oo-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6368 -> 7520 [style=invis]
+	6368 -> 7392 [style=invis]
+	6368 -> 7280 [style=invis]
+	6368 -> 7265 [style=invis]
+	9120 [label="x--
+-xo
+-oo
+ 4 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9120 -> 5936 [style=invis]
+	9120 -> 5908 [style=invis]
+	9056 [label="x--
+-xo
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9056 -> 7056 [style=invis]
+	9056 -> 6960 [style=invis]
+	9056 -> 6992 [style=invis]
+	9056 -> 6930 [style=invis]
+	8994 [label="xo-
+-xo
+--o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8994 -> 7376 [style=invis]
+	8994 -> 7249 [style=invis]
+	8994 -> 7504 [style=invis]
+	8994 -> 7280 [style=invis]
+	8996 [label="x-o
+-xo
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9000 [label="x--
+oxo
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9000 -> 21392 [style=invis]
+	9000 -> 21266 [style=invis]
+	9000 -> 21328 [style=invis]
+	9000 -> 21268 [style=invis]
+	1864 [label="xx-
+o--
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1864 -> 7104 [style=invis]
+	1864 -> 6850 [style=invis]
+	1864 -> 6880 [style=invis]
+	1864 -> 6864 [style=invis]
+	1804 [label="xxo
+o--
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1804 -> 49798 [style=invis]
+	1804 -> 49926 [style=invis]
+	1804 -> 49686 [style=invis]
+	1804 -> 49678 [style=invis]
+	2882 [label="xox
+---
+o-o
+ 4 3" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	2882 -> 49940 [style=invis]
+	2882 -> 49932 [style=invis]
+	2882 -> 49926 [style=invis]
+	2658 [label="xox
+--o
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	2658 -> 50197 [style=invis]
+	2658 -> 50437 [style=invis]
+	2658 -> 50189 [style=invis]
+	2658 -> 50309 [style=invis]
+	6211 [label="oox
+x--
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6211 -> 6850 [style=invis]
+	6211 -> 6738 [style=invis]
+	6211 -> 6978 [style=invis]
+	6211 -> 6754 [style=invis]
+	6466 [label="-ox
+x--
+o-o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6466 -> 49804 [style=invis]
+	6466 -> 49798 [style=invis]
+	6466 -> 49812 [style=invis]
+	6466 -> 49926 [style=invis]
+	6242 [label="-ox
+x-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6242 -> 50316 [style=invis]
+	6242 -> 50204 [style=invis]
+	6242 -> 50189 [style=invis]
+	6242 -> 50309 [style=invis]
+	6496 [label="--x
+x-o
+o-o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6496 -> 7008 [style=invis]
+	6496 -> 6754 [style=invis]
+	6496 -> 6768 [style=invis]
+	6496 -> 6880 [style=invis]
+	6241 [label="o-x
+x-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6241 -> 49804 [style=invis]
+	6241 -> 49692 [style=invis]
+	6241 -> 49932 [style=invis]
+	6241 -> 49678 [style=invis]
+	8966 [label="xoo
+-x-
+--o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8966 -> 6864 [style=invis]
+	8966 -> 6738 [style=invis]
+	8966 -> 6992 [style=invis]
+	8966 -> 6768 [style=invis]
+	8970 [label="xo-
+ox-
+--o
+ 4 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8970 -> 50204 [style=invis]
+	8970 -> 50197 [style=invis]
+	8972 [label="x-o
+ox-
+--o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	8972 -> 49812 [style=invis]
+	8972 -> 49692 [style=invis]
+	8972 -> 49940 [style=invis]
+	8972 -> 49686 [style=invis]
+	1860 [label="xxo
+---
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1860 -> 35744 [style=invis]
+	1860 -> 35632 [style=invis]
+	1860 -> 35618 [style=invis]
+	1860 -> 35624 [style=invis]
+	6465 [label="o-x
+x--
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6465 -> 35624 [style=invis]
+	6465 -> 35618 [style=invis]
+	6465 -> 35602 [style=invis]
+	6465 -> 35594 [style=invis]
+	9028 [label="x-o
+-x-
+o-o
+ 4 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9028 -> 35632 [style=invis]
+	9028 -> 35602 [style=invis]
+	20547 [label="oo-
+x-x
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	20547 -> 6818 [style=invis]
+	20547 -> 6850 [style=invis]
+	20547 -> 7042 [style=invis]
+	20547 -> 6802 [style=invis]
+	20549 [label="o-o
+x-x
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	20549 -> 35384 [style=invis]
+	20549 -> 35370 [style=invis]
+	20549 -> 35490 [style=invis]
+	20549 -> 35624 [style=invis]
+	9664 [label="-x-
+-x-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9537 [label="ox-
+-x-
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9537 -> 35632 [style=invis]
+	9537 -> 35378 [style=invis]
+	9537 -> 35384 [style=invis]
+	9537 -> 35504 [style=invis]
+	9544 [label="-x-
+ox-
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9544 -> 6864 [style=invis]
+	9544 -> 6802 [style=invis]
+	9544 -> 7056 [style=invis]
+	9544 -> 6832 [style=invis]
+	5472 [label="-x-
+x-o
+o-o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5472 -> 7072 [style=invis]
+	5472 -> 6818 [style=invis]
+	5472 -> 6832 [style=invis]
+	5472 -> 6880 [style=invis]
+	5412 [label="-xo
+x-o
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5381 [label="oxo
+x--
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5381 -> 35490 [style=invis]
+	5381 -> 35378 [style=invis]
+	5381 -> 35370 [style=invis]
+	5381 -> 35618 [style=invis]
+	5444 [label="-xo
+x--
+o-o
+ 4 3" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5444 -> 35744 [style=invis]
+	5444 -> 35490 [style=invis]
+	5444 -> 35504 [style=invis]
+	20613 [label="o-o
+x-x
+-o-
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	20613 -> 49802 [style=invis]
+	20613 -> 49798 [style=invis]
+	20613 -> 49810 [style=invis]
+	20487 [label="ooo
+x-x
+---
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5217 [label="ox-
+x-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5217 -> 49690 [style=invis]
+	5217 -> 49804 [style=invis]
+	5217 -> 49678 [style=invis]
+	5217 -> 49802 [style=invis]
+	5157 [label="oxo
+x-o
+---
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5157 -> 6818 [style=invis]
+	5157 -> 6706 [style=invis]
+	5157 -> 6946 [style=invis]
+	5157 -> 6754 [style=invis]
+	5189 [label="oxo
+x--
+o--
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	5189 -> 35354 [style=invis]
+	5189 -> 35594 [style=invis]
+	5189 -> 35370 [style=invis]
+	9409 [label="ox-
+-x-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9409 -> 6960 [style=invis]
+	9409 -> 6706 [style=invis]
+	9409 -> 6768 [style=invis]
+	9409 -> 6832 [style=invis]
+	9313 [label="ox-
+-xo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9313 -> 49690 [style=invis]
+	9313 -> 49812 [style=invis]
+	9313 -> 49686 [style=invis]
+	9313 -> 49810 [style=invis]
+	9285 [label="oxo
+-x-
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9285 -> 35384 [style=invis]
+	9285 -> 35354 [style=invis]
+	9285 -> 35602 [style=invis]
+	9285 -> 35378 [style=invis]
+	9289 [label="ox-
+ox-
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1760 [label="xx-
+--o
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1760 -> 7616 [style=invis]
+	1760 -> 7553 [style=invis]
+	1760 -> 7568 [style=invis]
+	1760 -> 7584 [style=invis]
+	1732 [label="xxo
+---
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1732 -> 36256 [style=invis]
+	1732 -> 36225 [style=invis]
+	1732 -> 36232 [style=invis]
+	1732 -> 36240 [style=invis]
+	1736 [label="xx-
+o--
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1736 -> 5732 [style=invis]
+	1736 -> 5796 [style=invis]
+	1736 -> 5924 [style=invis]
+	1736 -> 5684 [style=invis]
+	5536 [label="-x-
+x-o
+-oo
+ 4 3" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5536 -> 6048 [style=invis]
+	5536 -> 5796 [style=invis]
+	5536 -> 5808 [style=invis]
+	5409 [label="ox-
+x-o
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5409 -> 35992 [style=invis]
+	5409 -> 35977 [style=invis]
+	5409 -> 36232 [style=invis]
+	5409 -> 36008 [style=invis]
+	6560 [label="--x
+x-o
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6560 -> 5984 [style=invis]
+	6560 -> 5744 [style=invis]
+	6560 -> 5796 [style=invis]
+	6560 -> 5732 [style=invis]
+	6433 [label="o-x
+x-o
+--o
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6433 -> 35977 [style=invis]
+	6433 -> 35985 [style=invis]
+	6433 -> 36001 [style=invis]
+	6433 -> 36225 [style=invis]
+	6434 [label="-ox
+x-o
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6434 -> 7361 [style=invis]
+	6434 -> 7313 [style=invis]
+	6434 -> 7553 [style=invis]
+	6434 -> 7329 [style=invis]
+	5220 [label="-xo
+x-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5220 -> 36256 [style=invis]
+	5220 -> 36001 [style=invis]
+	5220 -> 36008 [style=invis]
+	5220 -> 36016 [style=invis]
+	5284 [label="-xo
+x-o
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5284 -> 7584 [style=invis]
+	5284 -> 7392 [style=invis]
+	5284 -> 7329 [style=invis]
+	5284 -> 7344 [style=invis]
+	9440 [label="-x-
+-xo
+oo-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	9440 -> 7568 [style=invis]
+	9440 -> 7313 [style=invis]
+	9440 -> 7344 [style=invis]
+	9440 -> 7376 [style=invis]
+	9412 [label="-xo
+-x-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	9412 -> 36240 [style=invis]
+	9412 -> 35985 [style=invis]
+	9412 -> 35992 [style=invis]
+	9412 -> 36016 [style=invis]
+	9416 [label="-x-
+ox-
+oo-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	9416 -> 5936 [style=invis]
+	9416 -> 5744 [style=invis]
+	9416 -> 5684 [style=invis]
+	9416 -> 5808 [style=invis]
+	1636 [label="xxo
+--o
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1636 -> 36256 [style=invis]
+	1636 -> 36129 [style=invis]
+	1636 -> 36144 [style=invis]
+	1636 -> 36136 [style=invis]
+	1640 [label="xx-
+o-o
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1640 -> 21440 [style=invis]
+	1640 -> 21186 [style=invis]
+	1640 -> 21188 [style=invis]
+	1640 -> 21200 [style=invis]
+	20611 [label="oo-
+x-x
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	20611 -> 21378 [style=invis]
+	20611 -> 21186 [style=invis]
+	20611 -> 21126 [style=invis]
+	20611 -> 21138 [style=invis]
+	20550 [label="-oo
+x-x
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	20550 -> 35896 [style=invis]
+	20550 -> 35881 [style=invis]
+	20550 -> 36136 [style=invis]
+	20550 -> 36008 [style=invis]
+	6403 [label="oox
+x--
+--o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6403 -> 35889 [style=invis]
+	6403 -> 36001 [style=invis]
+	6403 -> 36129 [style=invis]
+	6403 -> 35881 [style=invis]
+	6530 [label="-ox
+x--
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6530 -> 21140 [style=invis]
+	6530 -> 21188 [style=invis]
+	6530 -> 21380 [style=invis]
+	6530 -> 21126 [style=invis]
+	9316 [label="-xo
+-xo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9316 -> 36144 [style=invis]
+	9316 -> 35889 [style=invis]
+	9316 -> 35896 [style=invis]
+	9316 -> 36016 [style=invis]
+	9320 [label="-x-
+oxo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9320 -> 21200 [style=invis]
+	9320 -> 21138 [style=invis]
+	9320 -> 21140 [style=invis]
+	9320 -> 21392 [style=invis]
+	6529 [label="o-x
+x--
+-oo
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6529 -> 36232 [style=invis]
+	6529 -> 36120 [style=invis]
+	6529 -> 36136 [style=invis]
+	6529 -> 36105 [style=invis]
+	1612 [label="xxo
+o--
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1612 -> 35865 [style=invis]
+	1612 -> 35977 [style=invis]
+	1612 -> 36105 [style=invis]
+	1612 -> 35881 [style=invis]
+	9292 [label="-xo
+ox-
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9292 -> 35992 [style=invis]
+	9292 -> 35865 [style=invis]
+	9292 -> 35896 [style=invis]
+	9292 -> 36120 [style=invis]
+	1700 [label="xxo
+--o
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1700 -> 7584 [style=invis]
+	1700 -> 7457 [style=invis]
+	1700 -> 7472 [style=invis]
+	1700 -> 7520 [style=invis]
+	1676 [label="xxo
+o--
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1676 -> 50201 [style=invis]
+	1676 -> 50313 [style=invis]
+	1676 -> 50189 [style=invis]
+	1676 -> 50441 [style=invis]
+	5281 [label="ox-
+x-o
+-o-
+ 4 3" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	5281 -> 50328 [style=invis]
+	5281 -> 50313 [style=invis]
+	5281 -> 50316 [style=invis]
+	6305 [label="o-x
+x-o
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6305 -> 50313 [style=invis]
+	6305 -> 50321 [style=invis]
+	6305 -> 50309 [style=invis]
+	6305 -> 50441 [style=invis]
+	6179 [label="oox
+x-o
+---
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6179 -> 7217 [style=invis]
+	6179 -> 7329 [style=invis]
+	6179 -> 7265 [style=invis]
+	6179 -> 7457 [style=invis]
+	9349 [label="oxo
+-x-
+-o-
+ 4 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	9349 -> 49690 [style=invis]
+	9349 -> 49692 [style=invis]
+	9353 [label="ox-
+ox-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	9353 -> 7472 [style=invis]
+	9353 -> 7217 [style=invis]
+	9353 -> 7280 [style=invis]
+	9353 -> 7344 [style=invis]
+	9356 [label="-xo
+ox-
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	9356 -> 50328 [style=invis]
+	9356 -> 50201 [style=invis]
+	9356 -> 50321 [style=invis]
+	9356 -> 50204 [style=invis]
+	9229 [label="oxo
+ox-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9229 -> 6706 [style=invis]
+	9229 -> 6930 [style=invis]
+	9229 -> 6738 [style=invis]
+	9229 -> 6802 [style=invis]
+	1580 [label="xxo
+o-o
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	1580 -> 21062 [style=invis]
+	1580 -> 21126 [style=invis]
+	1580 -> 21014 [style=invis]
+	1580 -> 21254 [style=invis]
+	6275 [label="oox
+x--
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6275 -> 21186 [style=invis]
+	6275 -> 21074 [style=invis]
+	6275 -> 21314 [style=invis]
+	6275 -> 21062 [style=invis]
+	9257 [label="ox-
+oxo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9257 -> 21074 [style=invis]
+	9257 -> 21266 [style=invis]
+	9257 -> 21014 [style=invis]
+	9257 -> 21138 [style=invis]
+	34977 [label="o-x
+--o
+xo-
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	34977 -> 50441 [style=invis]
+	34977 -> 50437 [style=invis]
+	34977 -> 50449 [style=invis]
+	35075 [label="oox
+---
+x-o
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35075 -> 36225 [style=invis]
+	35075 -> 36129 [style=invis]
+	35075 -> 36105 [style=invis]
+	35075 -> 36113 [style=invis]
+	34851 [label="oox
+--o
+x--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	34851 -> 7489 [style=invis]
+	34851 -> 7457 [style=invis]
+	34851 -> 7553 [style=invis]
+	34851 -> 7441 [style=invis]
+	34857 [label="o-x
+o-o
+x--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	34857 -> 21188 [style=invis]
+	34857 -> 21076 [style=invis]
+	34857 -> 21062 [style=invis]
+	34857 -> 21316 [style=invis]
+	8802 [label="xo-
+-xo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8802 -> 50201 [style=invis]
+	8802 -> 50321 [style=invis]
+	8802 -> 50197 [style=invis]
+	8802 -> 50449 [style=invis]
+	8804 [label="x-o
+-xo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8804 -> 36144 [style=invis]
+	8804 -> 36120 [style=invis]
+	8804 -> 36240 [style=invis]
+	8804 -> 36113 [style=invis]
+	8868 [label="x-o
+-xo
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8868 -> 7472 [style=invis]
+	8868 -> 7441 [style=invis]
+	8868 -> 7504 [style=invis]
+	8868 -> 7568 [style=invis]
+	8808 [label="x--
+oxo
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8808 -> 21200 [style=invis]
+	8808 -> 21074 [style=invis]
+	8808 -> 21328 [style=invis]
+	8808 -> 21076 [style=invis]
+	34827 [label="oox
+o--
+x--
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	34827 -> 5732 [style=invis]
+	34827 -> 5716 [style=invis]
+	34827 -> 5956 [style=invis]
+	8742 [label="xoo
+-xo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8742 -> 5744 [style=invis]
+	8742 -> 5684 [style=invis]
+	8742 -> 5908 [style=invis]
+	8742 -> 5716 [style=invis]
+	8748 [label="x-o
+oxo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8748 -> 21140 [style=invis]
+	8748 -> 21268 [style=invis]
+	8748 -> 21014 [style=invis]
+	8748 -> 21076 [style=invis]
+	8774 [label="xoo
+-x-
+o--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8774 -> 35865 [style=invis]
+	8774 -> 35985 [style=invis]
+	8774 -> 36113 [style=invis]
+	8774 -> 35889 [style=invis]
+	8718 [label="xoo
+ox-
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8718 -> 7249 [style=invis]
+	8718 -> 7217 [style=invis]
+	8718 -> 7313 [style=invis]
+	8718 -> 7441 [style=invis]
+	1704 [label="xx-
+o-o
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	1704 -> 21952 [style=invis]
+	1704 -> 21697 [style=invis]
+	1704 -> 21700 [style=invis]
+	1704 -> 21712 [style=invis]
+	8866 [label="xo-
+-xo
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8866 -> 21712 [style=invis]
+	8866 -> 21585 [style=invis]
+	8866 -> 21840 [style=invis]
+	8866 -> 21588 [style=invis]
+	2728 [label="x-x
+o-o
+-o-
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2728 -> 21952 [style=invis]
+	2728 -> 21825 [style=invis]
+	2728 -> 21840 [style=invis]
+	2698 [label="xox
+o--
+-o-
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2698 -> 21825 [style=invis]
+	2698 -> 21585 [style=invis]
+	2698 -> 21697 [style=invis]
+	2698 -> 21573 [style=invis]
+	34858 [label="-ox
+o-o
+x--
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	34858 -> 21825 [style=invis]
+	34858 -> 21700 [style=invis]
+	34858 -> 21588 [style=invis]
+	34858 -> 21573 [style=invis]
+	6306 [label="-ox
+x-o
+-o-
+ 4 4" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6306 -> 21697 [style=invis]
+	6306 -> 21649 [style=invis]
+	6306 -> 21700 [style=invis]
+	6306 -> 21637 [style=invis]
+	2602 [label="xox
+o-o
+---
+ 4 3" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	2602 -> 21573 [style=invis]
+	2602 -> 21525 [style=invis]
+	2602 -> 21637 [style=invis]
+	8746 [label="xo-
+oxo
+---
+ 4 4" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	8746 -> 21585 [style=invis]
+	8746 -> 21649 [style=invis]
+	8746 -> 21588 [style=invis]
+	8746 -> 21525 [style=invis]
+	9384 [label="-x-
+oxo
+-o-
+ 4 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9384 -> 21712 [style=invis]
+	9384 -> 21649 [style=invis]
+	10176 [label="oo-
+-o-
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	10056 [label="oo-
+xo-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10056 -> 7120 [style=invis]
+	10056 -> 6866 [style=invis]
+	10056 -> 6896 [style=invis]
+	10080 [label="oo-
+-ox
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10080 -> 7120 [style=invis]
+	10080 -> 7058 [style=invis]
+	10080 -> 7088 [style=invis]
+	10052 [label="oox
+-o-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10052 -> 35760 [style=invis]
+	10052 -> 35634 [style=invis]
+	10052 -> 35640 [style=invis]
+	13664 [label="-o-
+oox
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13664 -> 7088 [style=invis]
+	13664 -> 6834 [style=invis]
+	13664 -> 6896 [style=invis]
+	13604 [label="-ox
+oox
+--x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	13573 [label="xox
+oo-
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13573 -> 35506 [style=invis]
+	13573 -> 35386 [style=invis]
+	13573 -> 35634 [style=invis]
+	13636 [label="-ox
+oo-
+x-x
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13636 -> 35760 [style=invis]
+	13636 -> 35506 [style=invis]
+	14784 [label="--o
+oo-
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	14657 [label="x-o
+oo-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14657 -> 35640 [style=invis]
+	14657 -> 35634 [style=invis]
+	14657 -> 35610 [style=invis]
+	14658 [label="-xo
+oo-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14658 -> 49814 [style=invis]
+	14658 -> 49820 [style=invis]
+	14658 -> 49942 [style=invis]
+	14688 [label="--o
+oox
+x-x
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	14688 -> 7024 [style=invis]
+	14688 -> 6770 [style=invis]
+	14688 -> 6896 [style=invis]
+	10116 [label="oox
+-o-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	10116 -> 7088 [style=invis]
+	10116 -> 6962 [style=invis]
+	10116 -> 7024 [style=invis]
+	10020 [label="oox
+-ox
+--x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	9996 [label="oox
+xo-
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9996 -> 49814 [style=invis]
+	9996 -> 49694 [style=invis]
+	9996 -> 49942 [style=invis]
+	13409 [label="xo-
+oox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13409 -> 49818 [style=invis]
+	13409 -> 49820 [style=invis]
+	13409 -> 49694 [style=invis]
+	13381 [label="xox
+oo-
+x--
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13381 -> 35386 [style=invis]
+	13381 -> 35610 [style=invis]
+	13349 [label="xox
+oox
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13349 -> 6834 [style=invis]
+	13349 -> 6962 [style=invis]
+	13349 -> 6770 [style=invis]
+	9952 [label="oo-
+-ox
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9952 -> 7632 [style=invis]
+	9952 -> 7569 [style=invis]
+	9952 -> 7600 [style=invis]
+	9828 [label="oox
+-ox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9828 -> 36272 [style=invis]
+	9828 -> 36145 [style=invis]
+	9828 -> 36152 [style=invis]
+	9832 [label="oo-
+xox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9832 -> 21456 [style=invis]
+	9832 -> 21202 [style=invis]
+	9832 -> 21204 [style=invis]
+	14626 [label="-xo
+oox
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14626 -> 7377 [style=invis]
+	14626 -> 7569 [style=invis]
+	14626 -> 7345 [style=invis]
+	14595 [label="xxo
+oo-
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14595 -> 35897 [style=invis]
+	14595 -> 36017 [style=invis]
+	14595 -> 36145 [style=invis]
+	14722 [label="-xo
+oo-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14722 -> 21204 [style=invis]
+	14722 -> 21396 [style=invis]
+	14722 -> 21142 [style=invis]
+	13476 [label="-ox
+oox
+-x-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	13476 -> 7600 [style=invis]
+	13476 -> 7408 [style=invis]
+	13476 -> 7345 [style=invis]
+	13412 [label="-ox
+oox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13412 -> 36272 [style=invis]
+	13412 -> 36017 [style=invis]
+	13412 -> 36024 [style=invis]
+	10024 [label="oo-
+xox
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10024 -> 21456 [style=invis]
+	10024 -> 21394 [style=invis]
+	10024 -> 21396 [style=invis]
+	10120 [label="oo-
+xo-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10120 -> 7632 [style=invis]
+	10120 -> 7408 [style=invis]
+	10120 -> 7377 [style=invis]
+	9924 [label="oox
+-o-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9924 -> 36272 [style=invis]
+	9924 -> 36241 [style=invis]
+	9924 -> 36248 [style=invis]
+	9928 [label="oo-
+xo-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9928 -> 5748 [style=invis]
+	9928 -> 5812 [style=invis]
+	9928 -> 5940 [style=invis]
+	10144 [label="oo-
+-ox
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10144 -> 6064 [style=invis]
+	10144 -> 6000 [style=invis]
+	10144 -> 5940 [style=invis]
+	13728 [label="-o-
+oox
+-xx
+ 3 2" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	13728 -> 6064 [style=invis]
+	13728 -> 5812 [style=invis]
+	13601 [label="xo-
+oox
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	13601 -> 36248 [style=invis]
+	13601 -> 35993 [style=invis]
+	13601 -> 36024 [style=invis]
+	14752 [label="--o
+oox
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14752 -> 6000 [style=invis]
+	14752 -> 5812 [style=invis]
+	14752 -> 5748 [style=invis]
+	14625 [label="x-o
+oox
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14625 -> 35993 [style=invis]
+	14625 -> 36241 [style=invis]
+	14625 -> 36017 [style=invis]
+	14721 [label="x-o
+oo-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14721 -> 36248 [style=invis]
+	14721 -> 36121 [style=invis]
+	14721 -> 36152 [style=invis]
+	9804 [label="oox
+xo-
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9804 -> 35993 [style=invis]
+	9804 -> 36121 [style=invis]
+	9804 -> 35897 [style=invis]
+	11200 [label="o-o
+-o-
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	10946 [label="oxo
+-o-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10946 -> 21396 [style=invis]
+	10946 -> 21270 [style=invis]
+	10946 -> 21332 [style=invis]
+	10976 [label="o-o
+-ox
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10976 -> 7632 [style=invis]
+	10976 -> 7505 [style=invis]
+	10976 -> 7536 [style=invis]
+	10952 [label="o-o
+xo-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10952 -> 6000 [style=invis]
+	10952 -> 5940 [style=invis]
+	10952 -> 5972 [style=invis]
+	10826 [label="oxo
+xo-
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10826 -> 7505 [style=invis]
+	10826 -> 7377 [style=invis]
+	10826 -> 7281 [style=invis]
+	11080 [label="o-o
+xo-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	11080 -> 7120 [style=invis]
+	11080 -> 6994 [style=invis]
+	11080 -> 7024 [style=invis]
+	10856 [label="o-o
+xox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10856 -> 21456 [style=invis]
+	10856 -> 21330 [style=invis]
+	10856 -> 21332 [style=invis]
+	14529 [label="x-o
+oo-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14529 -> 6962 [style=invis]
+	14529 -> 6994 [style=invis]
+	14529 -> 7058 [style=invis]
+	14530 [label="-xo
+oo-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14530 -> 21394 [style=invis]
+	14530 -> 21330 [style=invis]
+	14530 -> 21270 [style=invis]
+	14560 [label="--o
+oox
+xx-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	14560 -> 7536 [style=invis]
+	14560 -> 7408 [style=invis]
+	14560 -> 7281 [style=invis]
+	11074 [label="oxo
+-o-
+x-x
+ 3 2" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	11074 -> 49948 [style=invis]
+	11074 -> 49942 [style=invis]
+	10850 [label="oxo
+-ox
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10850 -> 50453 [style=invis]
+	10850 -> 50205 [style=invis]
+	10850 -> 50325 [style=invis]
+	14403 [label="xxo
+oo-
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14403 -> 6866 [style=invis]
+	14403 -> 6994 [style=invis]
+	14403 -> 6770 [style=invis]
+	14434 [label="-xo
+oox
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	14434 -> 50332 [style=invis]
+	14434 -> 50205 [style=invis]
+	14434 -> 50325 [style=invis]
+	14433 [label="x-o
+oox
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	14433 -> 49820 [style=invis]
+	14433 -> 49948 [style=invis]
+	14433 -> 49694 [style=invis]
+	9868 [label="oox
+xo-
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9868 -> 50329 [style=invis]
+	9868 -> 50205 [style=invis]
+	9868 -> 50457 [style=invis]
+	9892 [label="oox
+-ox
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9892 -> 7600 [style=invis]
+	9892 -> 7473 [style=invis]
+	9892 -> 7536 [style=invis]
+	14371 [label="xxo
+oox
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14371 -> 7473 [style=invis]
+	14371 -> 7345 [style=invis]
+	14371 -> 7281 [style=invis]
+	14497 [label="x-o
+oox
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14497 -> 50329 [style=invis]
+	14497 -> 50325 [style=invis]
+	14497 -> 50457 [style=invis]
+	13473 [label="xo-
+oox
+-x-
+ 3 2" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	13473 -> 50329 [style=invis]
+	13473 -> 50332 [style=invis]
+	9772 [label="oox
+xox
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9772 -> 21078 [style=invis]
+	9772 -> 21142 [style=invis]
+	9772 -> 21270 [style=invis]
+	14467 [label="xxo
+oo-
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14467 -> 21202 [style=invis]
+	14467 -> 21330 [style=invis]
+	14467 -> 21078 [style=invis]
+	14498 [label="-xo
+oox
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14498 -> 21713 [style=invis]
+	14498 -> 21716 [style=invis]
+	14498 -> 21653 [style=invis]
+	9896 [label="oo-
+xox
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	9896 -> 21968 [style=invis]
+	9896 -> 21713 [style=invis]
+	9896 -> 21716 [style=invis]
+	10794 [label="oxo
+xox
+---
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10794 -> 21589 [style=invis]
+	10794 -> 21653 [style=invis]
+	10890 [label="oxo
+xo-
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10890 -> 21841 [style=invis]
+	10890 -> 21713 [style=invis]
+	10890 -> 21589 [style=invis]
+	10920 [label="o-o
+xox
+-x-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	10920 -> 21968 [style=invis]
+	10920 -> 21841 [style=invis]
+	6048 [label="oo-
+o-x
+-xx
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6048 -> 6064 [style=invis]
+	6048 -> 6052 [style=invis]
+	5936 [label="oo-
+oxx
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5936 -> 10208 [style=invis]
+	5936 -> 10148 [style=invis]
+	5936 -> 10152 [style=invis]
+	5984 [label="oo-
+o-x
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5984 -> 7136 [style=invis]
+	5984 -> 7074 [style=invis]
+	5984 -> 7088 [style=invis]
+	5924 [label="oox
+o-x
+--x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7104 [label="o-o
+o--
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7042 [label="oxo
+o--
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7042 -> 21444 [style=invis]
+	7042 -> 21396 [style=invis]
+	7042 -> 21382 [style=invis]
+	7056 [label="o-o
+ox-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7056 -> 10208 [style=invis]
+	7056 -> 10084 [style=invis]
+	7056 -> 10088 [style=invis]
+	7072 [label="o-o
+o-x
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7072 -> 6000 [style=invis]
+	7072 -> 6052 [style=invis]
+	7072 -> 5988 [style=invis]
+	21440 [label="o--
+o-o
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21378 [label="ox-
+o-o
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21378 -> 21442 [style=invis]
+	21378 -> 21394 [style=invis]
+	21378 -> 21382 [style=invis]
+	21380 [label="o-x
+o-o
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21380 -> 7106 [style=invis]
+	21380 -> 7074 [style=invis]
+	21380 -> 7058 [style=invis]
+	21392 [label="o--
+oxo
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21392 -> 10152 [style=invis]
+	21392 -> 10088 [style=invis]
+	21392 -> 10028 [style=invis]
+	7616 [label="-oo
+o--
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7489 [label="xoo
+o--
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7489 -> 35746 [style=invis]
+	7489 -> 35634 [style=invis]
+	7489 -> 35626 [style=invis]
+	7504 [label="-oo
+ox-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7504 -> 11208 [style=invis]
+	7504 -> 10978 [style=invis]
+	7504 -> 10984 [style=invis]
+	7520 [label="-oo
+o-x
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7520 -> 7136 [style=invis]
+	7520 -> 6882 [style=invis]
+	7520 -> 6896 [style=invis]
+	21268 [label="o-x
+oxo
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21268 -> 11202 [style=invis]
+	21268 -> 10954 [style=invis]
+	21268 -> 10978 [style=invis]
+	21254 [label="oxx
+o-o
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21254 -> 7106 [style=invis]
+	21254 -> 6866 [style=invis]
+	21254 -> 6882 [style=invis]
+	21316 [label="o-x
+o-o
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21316 -> 35640 [style=invis]
+	21316 -> 35746 [style=invis]
+	21316 -> 35626 [style=invis]
+	5908 [label="oox
+ox-
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5908 -> 11208 [style=invis]
+	5908 -> 10954 [style=invis]
+	5908 -> 10984 [style=invis]
+	5956 [label="oox
+o--
+x-x
+ 3 2" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	5956 -> 35760 [style=invis]
+	5956 -> 35746 [style=invis]
+	6960 [label="o-o
+oxx
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6960 -> 10124 [style=invis]
+	6960 -> 10180 [style=invis]
+	6960 -> 10148 [style=invis]
+	7008 [label="o-o
+o-x
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7008 -> 7136 [style=invis]
+	7008 -> 7010 [style=invis]
+	7008 -> 7024 [style=invis]
+	6946 [label="oxo
+o-x
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6946 -> 7377 [style=invis]
+	6946 -> 7617 [style=invis]
+	6946 -> 7393 [style=invis]
+	7392 [label="-oo
+o-x
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7392 -> 7648 [style=invis]
+	7392 -> 7408 [style=invis]
+	7392 -> 7393 [style=invis]
+	7361 [label="xoo
+o--
+xx-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7361 -> 7074 [style=invis]
+	7361 -> 6962 [style=invis]
+	7361 -> 7010 [style=invis]
+	7376 [label="-oo
+ox-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7376 -> 10184 [style=invis]
+	7376 -> 10124 [style=invis]
+	7376 -> 10152 [style=invis]
+	6978 [label="oxo
+o--
+x-x
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6978 -> 50054 [style=invis]
+	6978 -> 49942 [style=invis]
+	6978 -> 49934 [style=invis]
+	6992 [label="o-o
+ox-
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6992 -> 11208 [style=invis]
+	6992 -> 11082 [style=invis]
+	6992 -> 11112 [style=invis]
+	7249 [label="xoo
+ox-
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7249 -> 10954 [style=invis]
+	7249 -> 11082 [style=invis]
+	7249 -> 10858 [style=invis]
+	7265 [label="xoo
+o-x
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7265 -> 49806 [style=invis]
+	7265 -> 49694 [style=invis]
+	7265 -> 49934 [style=invis]
+	21314 [label="ox-
+o-o
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21314 -> 49806 [style=invis]
+	21314 -> 49814 [style=invis]
+	21314 -> 50054 [style=invis]
+	21328 [label="o--
+oxo
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21328 -> 10984 [style=invis]
+	21328 -> 10858 [style=invis]
+	21328 -> 11112 [style=invis]
+	6930 [label="oxo
+ox-
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6930 -> 14785 [style=invis]
+	6930 -> 14531 [style=invis]
+	6930 -> 14561 [style=invis]
+	21266 [label="ox-
+oxo
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21266 -> 14562 [style=invis]
+	21266 -> 14786 [style=invis]
+	21266 -> 14531 [style=invis]
+	7280 [label="-oo
+oxx
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7280 -> 14816 [style=invis]
+	7280 -> 14561 [style=invis]
+	7280 -> 14562 [style=invis]
+	6850 [label="oxo
+o--
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	6850 -> 21318 [style=invis]
+	6850 -> 21382 [style=invis]
+	6850 -> 21270 [style=invis]
+	6880 [label="o-o
+o-x
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6880 -> 7648 [style=invis]
+	6880 -> 7521 [style=invis]
+	6880 -> 7536 [style=invis]
+	6864 [label="o-o
+ox-
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6864 -> 10184 [style=invis]
+	6864 -> 10088 [style=invis]
+	6864 -> 10060 [style=invis]
+	49798 [label="oxx
+--o
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49798 -> 21442 [style=invis]
+	49798 -> 21330 [style=invis]
+	49798 -> 21318 [style=invis]
+	49926 [label="oxx
+--o
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49926 -> 7106 [style=invis]
+	49926 -> 6994 [style=invis]
+	49926 -> 7010 [style=invis]
+	49686 [label="oxx
+-xo
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49686 -> 10124 [style=invis]
+	49686 -> 10028 [style=invis]
+	49686 -> 10060 [style=invis]
+	49678 [label="oxx
+x-o
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49678 -> 7281 [style=invis]
+	49678 -> 7521 [style=invis]
+	49678 -> 7393 [style=invis]
+	49940 [label="o-x
+-xo
+o-x
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49940 -> 11202 [style=invis]
+	49940 -> 11082 [style=invis]
+	49932 [label="o-x
+x-o
+o-x
+ 3 2" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	49932 -> 49948 [style=invis]
+	49932 -> 49934 [style=invis]
+	50197 [label="xox
+-xo
+o--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50197 -> 10858 [style=invis]
+	50197 -> 11082 [style=invis]
+	50197 -> 10978 [style=invis]
+	50437 [label="xox
+--o
+o-x
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50437 -> 35626 [style=invis]
+	50437 -> 35610 [style=invis]
+	50189 [label="xox
+x-o
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50189 -> 6882 [style=invis]
+	50189 -> 6770 [style=invis]
+	50189 -> 7010 [style=invis]
+	50309 [label="xox
+--o
+ox-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50309 -> 49820 [style=invis]
+	50309 -> 49806 [style=invis]
+	50309 -> 49934 [style=invis]
+	6738 [label="oxo
+ox-
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6738 -> 14659 [style=invis]
+	6738 -> 14531 [style=invis]
+	6738 -> 14435 [style=invis]
+	6754 [label="oxo
+o-x
+x--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	6754 -> 50445 [style=invis]
+	6754 -> 50205 [style=invis]
+	6754 -> 50317 [style=invis]
+	49804 [label="o-x
+x-o
+ox-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	49804 -> 50445 [style=invis]
+	49804 -> 50317 [style=invis]
+	49804 -> 50325 [style=invis]
+	49812 [label="o-x
+-xo
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49812 -> 14786 [style=invis]
+	49812 -> 14690 [style=invis]
+	49812 -> 14659 [style=invis]
+	50316 [label="-ox
+x-o
+ox-
+ 3 2" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50316 -> 50332 [style=invis]
+	50316 -> 50317 [style=invis]
+	50204 [label="-ox
+xxo
+o--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50204 -> 14562 [style=invis]
+	50204 -> 14435 [style=invis]
+	50204 -> 14690 [style=invis]
+	6768 [label="o-o
+oxx
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6768 -> 14816 [style=invis]
+	6768 -> 14689 [style=invis]
+	6768 -> 14690 [style=invis]
+	49692 [label="o-x
+xxo
+o--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	49692 -> 14561 [style=invis]
+	49692 -> 14435 [style=invis]
+	49692 -> 14689 [style=invis]
+	35744 [label="o-o
+--x
+oxx
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35744 -> 5988 [style=invis]
+	35744 -> 5972 [style=invis]
+	35632 [label="o-o
+-xx
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35632 -> 10180 [style=invis]
+	35632 -> 10084 [style=invis]
+	35632 -> 10060 [style=invis]
+	35618 [label="oxo
+--x
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35618 -> 7505 [style=invis]
+	35618 -> 7617 [style=invis]
+	35618 -> 7521 [style=invis]
+	35624 [label="o-o
+x-x
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35624 -> 21444 [style=invis]
+	35624 -> 21318 [style=invis]
+	35624 -> 21332 [style=invis]
+	35602 [label="oxo
+-x-
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35602 -> 14785 [style=invis]
+	35602 -> 14659 [style=invis]
+	35602 -> 14689 [style=invis]
+	35594 [label="oxo
+x--
+o-x
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35594 -> 50445 [style=invis]
+	35594 -> 50453 [style=invis]
+	6818 [label="oxo
+o-x
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6818 -> 21713 [style=invis]
+	6818 -> 21953 [style=invis]
+	6818 -> 21701 [style=invis]
+	6802 [label="oxo
+ox-
+-x-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35384 [label="o-o
+xxx
+o--
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35370 [label="oxo
+x-x
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35370 -> 21701 [style=invis]
+	35370 -> 21829 [style=invis]
+	35370 -> 21589 [style=invis]
+	35490 [label="oxo
+--x
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35490 -> 21841 [style=invis]
+	35490 -> 21953 [style=invis]
+	35490 -> 21829 [style=invis]
+	35378 [label="oxo
+-xx
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35378 -> 13665 [style=invis]
+	35378 -> 13637 [style=invis]
+	35378 -> 13605 [style=invis]
+	35504 [label="o-o
+-xx
+ox-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35504 -> 13668 [style=invis]
+	35504 -> 13637 [style=invis]
+	6832 [label="o-o
+oxx
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6832 -> 13668 [style=invis]
+	6832 -> 13665 [style=invis]
+	6832 -> 13732 [style=invis]
+	49802 [label="ox-
+x-o
+ox-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	49802 -> 21701 [style=invis]
+	49802 -> 21653 [style=invis]
+	49810 [label="ox-
+-xo
+ox-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	49690 [label="ox-
+xxo
+o--
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	49690 -> 13665 [style=invis]
+	49690 -> 13413 [style=invis]
+	49690 -> 13477 [style=invis]
+	6706 [label="oxo
+oxx
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	6706 -> 13413 [style=invis]
+	6706 -> 13605 [style=invis]
+	6706 -> 13477 [style=invis]
+	35354 [label="oxo
+xx-
+o--
+ 3 2" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35354 -> 13637 [style=invis]
+	35354 -> 13413 [style=invis]
+	7553 [label="xoo
+o--
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7553 -> 36248 [style=invis]
+	7553 -> 36233 [style=invis]
+	7553 -> 36264 [style=invis]
+	7568 [label="-oo
+ox-
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7568 -> 10208 [style=invis]
+	7568 -> 9960 [style=invis]
+	7568 -> 9956 [style=invis]
+	7584 [label="-oo
+o-x
+-xx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7584 -> 5812 [style=invis]
+	7584 -> 5860 [style=invis]
+	7584 -> 6052 [style=invis]
+	36256 [label="-oo
+--x
+oxx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36256 -> 5748 [style=invis]
+	36256 -> 5860 [style=invis]
+	36256 -> 5988 [style=invis]
+	36225 [label="xoo
+---
+oxx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36225 -> 36233 [style=invis]
+	36225 -> 36241 [style=invis]
+	36225 -> 36257 [style=invis]
+	36232 [label="-oo
+x--
+oxx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36232 -> 7617 [style=invis]
+	36232 -> 7569 [style=invis]
+	36232 -> 7585 [style=invis]
+	36240 [label="-oo
+-x-
+oxx
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36240 -> 9932 [style=invis]
+	36240 -> 10180 [style=invis]
+	36240 -> 9956 [style=invis]
+	5732 [label="oox
+o-x
+x--
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	5732 -> 36272 [style=invis]
+	5732 -> 36257 [style=invis]
+	5732 -> 36264 [style=invis]
+	5796 [label="oox
+o-x
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5796 -> 7600 [style=invis]
+	5796 -> 7648 [style=invis]
+	5796 -> 7585 [style=invis]
+	5684 [label="oox
+oxx
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5684 -> 10184 [style=invis]
+	5684 -> 9960 [style=invis]
+	5684 -> 9932 [style=invis]
+	5808 [label="oo-
+oxx
+-x-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5808 -> 13729 [style=invis]
+	5808 -> 13732 [style=invis]
+	35992 [label="-oo
+xx-
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35992 -> 13729 [style=invis]
+	35992 -> 13665 [style=invis]
+	35992 -> 13605 [style=invis]
+	35977 [label="xoo
+x--
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35977 -> 7473 [style=invis]
+	35977 -> 7585 [style=invis]
+	35977 -> 7521 [style=invis]
+	36008 [label="-oo
+x-x
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36008 -> 21953 [style=invis]
+	36008 -> 21716 [style=invis]
+	36008 -> 21701 [style=invis]
+	5744 [label="oo-
+oxx
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	5744 -> 14816 [style=invis]
+	5744 -> 14753 [style=invis]
+	5744 -> 14754 [style=invis]
+	35985 [label="xoo
+-x-
+ox-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	35985 -> 14753 [style=invis]
+	35985 -> 14627 [style=invis]
+	35985 -> 14689 [style=invis]
+	36001 [label="xoo
+--x
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36001 -> 50569 [style=invis]
+	36001 -> 50445 [style=invis]
+	36001 -> 50457 [style=invis]
+	7313 [label="xoo
+ox-
+-x-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7313 -> 14754 [style=invis]
+	7313 -> 14627 [style=invis]
+	7313 -> 14690 [style=invis]
+	7329 [label="xoo
+o-x
+-x-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7329 -> 50329 [style=invis]
+	7329 -> 50569 [style=invis]
+	7329 -> 50317 [style=invis]
+	36016 [label="-oo
+-xx
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36016 -> 13540 [style=invis]
+	36016 -> 13668 [style=invis]
+	36016 -> 13413 [style=invis]
+	7344 [label="-oo
+oxx
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7344 -> 13540 [style=invis]
+	7344 -> 13732 [style=invis]
+	7344 -> 13477 [style=invis]
+	36129 [label="xoo
+--x
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36129 -> 36233 [style=invis]
+	36129 -> 36121 [style=invis]
+	36129 -> 36137 [style=invis]
+	36144 [label="-oo
+-xx
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36144 -> 9836 [style=invis]
+	36144 -> 10084 [style=invis]
+	36144 -> 9956 [style=invis]
+	36136 [label="-oo
+x-x
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36136 -> 21204 [style=invis]
+	36136 -> 21444 [style=invis]
+	36136 -> 21190 [style=invis]
+	21186 [label="ox-
+o-o
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21186 -> 21142 [style=invis]
+	21186 -> 21190 [style=invis]
+	21186 -> 21382 [style=invis]
+	21188 [label="o-x
+o-o
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21188 -> 36264 [style=invis]
+	21188 -> 36137 [style=invis]
+	21188 -> 36152 [style=invis]
+	21200 [label="o--
+oxo
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21200 -> 9960 [style=invis]
+	21200 -> 9836 [style=invis]
+	21200 -> 10088 [style=invis]
+	21126 [label="oxx
+o-o
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21126 -> 21442 [style=invis]
+	21126 -> 21202 [style=invis]
+	21126 -> 21190 [style=invis]
+	21138 [label="ox-
+oxo
+-x-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35896 [label="-oo
+xxx
+o--
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35881 [label="xoo
+x-x
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	35881 -> 21318 [style=invis]
+	35881 -> 21190 [style=invis]
+	35881 -> 21078 [style=invis]
+	35889 [label="xoo
+-xx
+o--
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35889 -> 14659 [style=invis]
+	35889 -> 14627 [style=invis]
+	35889 -> 14723 [style=invis]
+	21140 [label="o-x
+oxo
+-x-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21140 -> 14786 [style=invis]
+	21140 -> 14754 [style=invis]
+	21140 -> 14723 [style=invis]
+	36120 [label="-oo
+xx-
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36120 -> 14785 [style=invis]
+	36120 -> 14753 [style=invis]
+	36120 -> 14723 [style=invis]
+	36105 [label="xoo
+x--
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	36105 -> 36145 [style=invis]
+	36105 -> 36257 [style=invis]
+	36105 -> 36137 [style=invis]
+	35865 [label="xoo
+xx-
+o--
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	35865 -> 9836 [style=invis]
+	35865 -> 9932 [style=invis]
+	35865 -> 10060 [style=invis]
+	7457 [label="xoo
+o-x
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7457 -> 35993 [style=invis]
+	7457 -> 36233 [style=invis]
+	7457 -> 36009 [style=invis]
+	7472 [label="-oo
+oxx
+--x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	7472 -> 9900 [style=invis]
+	7472 -> 10148 [style=invis]
+	7472 -> 9956 [style=invis]
+	50201 [label="xo-
+xxo
+o--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50201 -> 10124 [style=invis]
+	50201 -> 9900 [style=invis]
+	50201 -> 9932 [style=invis]
+	50313 [label="xo-
+x-o
+ox-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50313 -> 7585 [style=invis]
+	50313 -> 7345 [style=invis]
+	50313 -> 7393 [style=invis]
+	50441 [label="xo-
+x-o
+o-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50441 -> 36257 [style=invis]
+	50441 -> 36017 [style=invis]
+	50441 -> 36009 [style=invis]
+	50328 [label="-o-
+xxo
+ox-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	50328 -> 13729 [style=invis]
+	50328 -> 13477 [style=invis]
+	50321 [label="xo-
+-xo
+ox-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50321 -> 14753 [style=invis]
+	50321 -> 14499 [style=invis]
+	50321 -> 14561 [style=invis]
+	7217 [label="xoo
+oxx
+---
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	7217 -> 14627 [style=invis]
+	7217 -> 14499 [style=invis]
+	7217 -> 14435 [style=invis]
+	21062 [label="oxx
+o-o
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21062 -> 35897 [style=invis]
+	21062 -> 36009 [style=invis]
+	21062 -> 36137 [style=invis]
+	21014 [label="oxx
+oxo
+---
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21014 -> 9836 [style=invis]
+	21014 -> 9900 [style=invis]
+	21014 -> 10028 [style=invis]
+	21074 [label="ox-
+oxo
+x--
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21074 -> 14531 [style=invis]
+	21074 -> 14723 [style=invis]
+	21074 -> 14499 [style=invis]
+	50449 [label="xo-
+-xo
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	36113 [label="xoo
+-x-
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	7441 [label="xoo
+ox-
+--x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21076 [label="o-x
+oxo
+x--
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	5716 [label="oox
+ox-
+x--
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21952 [label="-o-
+o-o
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21697 [label="xo-
+o-o
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21697 -> 6834 [style=invis]
+	21697 -> 6882 [style=invis]
+	21697 -> 7074 [style=invis]
+	21700 [label="-ox
+o-o
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21700 -> 36264 [style=invis]
+	21700 -> 36009 [style=invis]
+	21700 -> 36024 [style=invis]
+	21712 [label="-o-
+oxo
+xx-
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21712 -> 9960 [style=invis]
+	21712 -> 9900 [style=invis]
+	21712 -> 10152 [style=invis]
+	21585 [label="xo-
+oxo
+x--
+ 3 3" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21585 -> 10922 [style=invis]
+	21585 -> 10954 [style=invis]
+	21585 -> 10978 [style=invis]
+	21840 [label="-o-
+oxo
+x-x
+ 3 2" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21840 -> 10984 [style=invis]
+	21840 -> 10922 [style=invis]
+	21588 [label="-ox
+oxo
+x--
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21825 [label="xo-
+o-o
+x-x
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21825 -> 35506 [style=invis]
+	21825 -> 35746 [style=invis]
+	21825 -> 35498 [style=invis]
+	21573 [label="xox
+o-o
+x--
+ 3 3" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21573 -> 35498 [style=invis]
+	21573 -> 35386 [style=invis]
+	21573 -> 35626 [style=invis]
+	21649 [label="xo-
+oxo
+-x-
+ 3 3" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	21649 -> 14562 [style=invis]
+	21649 -> 14754 [style=invis]
+	21649 -> 14499 [style=invis]
+	21637 [label="xox
+o-o
+-x-
+ 3 2" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	21637 -> 49818 [style=invis]
+	21637 -> 49806 [style=invis]
+	21525 [label="xox
+oxo
+---
+ 3 2" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	21525 -> 10922 [style=invis]
+	21525 -> 10858 [style=invis]
+	7120 [label="x-x
+xo-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6866 [label="xox
+xo-
+oo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6896 [label="x-x
+xoo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6896 -> 15840 [style=invis]
+	6896 -> 15713 [style=invis]
+	7058 [label="xox
+xo-
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7088 [label="x-x
+xoo
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7088 -> 14180 [style=invis]
+	7088 -> 14244 [style=invis]
+	35760 [label="x-x
+-oo
+xoo
+ 2 1" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35760 -> 14180 [style=invis]
+	35634 [label="xox
+-oo
+x-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35634 -> 15809 [style=invis]
+	35634 -> 15713 [style=invis]
+	35640 [label="x-x
+ooo
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6834 [label="xox
+xoo
+-o-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35506 [label="xox
+-oo
+xo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35386 [label="xox
+ooo
+x--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35610 [label="xox
+oo-
+x-o
+ 2 1" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35610 -> 58637 [style=invis]
+	49814 [label="xoo
+-ox
+xo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	49820 [label="x-o
+oox
+xo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	49820 -> 58637 [style=invis]
+	49820 -> 58509 [style=invis]
+	49942 [label="xoo
+-ox
+x-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	49942 -> 15298 [style=invis]
+	49942 -> 15202 [style=invis]
+	7024 [label="x-x
+xoo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7024 -> 15328 [style=invis]
+	7024 -> 15202 [style=invis]
+	6770 [label="xox
+xoo
+o--
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6770 -> 58637 [style=invis]
+	6770 -> 58509 [style=invis]
+	6962 [label="xox
+xoo
+--o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6962 -> 15809 [style=invis]
+	6962 -> 15585 [style=invis]
+	49694 [label="xoo
+oox
+x--
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	49694 -> 15585 [style=invis]
+	49694 -> 15713 [style=invis]
+	49818 [label="xo-
+oox
+xo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7632 [label="-xx
+xo-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7569 [label="oxx
+xo-
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7600 [label="-xx
+xoo
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7600 -> 14052 [style=invis]
+	7600 -> 14244 [style=invis]
+	36272 [label="-xx
+-oo
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36272 -> 14052 [style=invis]
+	36272 -> 14180 [style=invis]
+	36145 [label="oxx
+-oo
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	36152 [label="-xx
+ooo
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21456 [label="x--
+xox
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21202 [label="xo-
+xox
+oo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21204 [label="x-o
+xox
+oo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7377 [label="oxx
+xo-
+oo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	7377 -> 15266 [style=invis]
+	7377 -> 15202 [style=invis]
+	7345 [label="oxx
+xoo
+-o-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	7345 -> 58761 [style=invis]
+	7345 -> 58509 [style=invis]
+	35897 [label="oxx
+ooo
+x--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	36017 [label="oxx
+-oo
+xo-
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	36017 -> 58761 [style=invis]
+	36017 -> 58637 [style=invis]
+	21396 [label="x-o
+xox
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21396 -> 15298 [style=invis]
+	21396 -> 15266 [style=invis]
+	21142 [label="xoo
+xox
+-o-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7408 [label="-xx
+xoo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7408 -> 15840 [style=invis]
+	7408 -> 15585 [style=invis]
+	36024 [label="-xx
+ooo
+xo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21394 [label="xo-
+xox
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	36241 [label="oxx
+-o-
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	36248 [label="-xx
+oo-
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36248 -> 15809 [style=invis]
+	36248 -> 15777 [style=invis]
+	5748 [label="xxo
+xoo
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5812 [label="xxo
+xoo
+-o-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	5812 -> 15840 [style=invis]
+	5812 -> 15777 [style=invis]
+	5940 [label="xxo
+xoo
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6064 [label="xx-
+xoo
+-oo
+ 2 1" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6064 -> 14244 [style=invis]
+	6000 [label="xx-
+xoo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	6000 -> 15328 [style=invis]
+	6000 -> 15266 [style=invis]
+	35993 [label="oxx
+oo-
+xo-
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35993 -> 15777 [style=invis]
+	35993 -> 15713 [style=invis]
+	36121 [label="oxx
+oo-
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21270 [label="xoo
+xox
+--o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21270 -> 15074 [style=invis]
+	21270 -> 15298 [style=invis]
+	21332 [label="x-o
+xox
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7505 [label="oxx
+xo-
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7536 [label="-xx
+xoo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7536 -> 15328 [style=invis]
+	7536 -> 15074 [style=invis]
+	5972 [label="xxo
+xo-
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7281 [label="oxx
+xoo
+o--
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	7281 -> 57998 [style=invis]
+	7281 -> 58126 [style=invis]
+	6994 [label="xox
+xo-
+o-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	6994 -> 58246 [style=invis]
+	6994 -> 58126 [style=invis]
+	21330 [label="xo-
+xox
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21330 -> 57998 [style=invis]
+	21330 -> 58246 [style=invis]
+	49948 [label="x-o
+oox
+x-o
+ 2 1" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	49948 -> 58126 [style=invis]
+	50453 [label="oxo
+-ox
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	50205 [label="oxo
+oox
+x--
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50205 -> 15074 [style=invis]
+	50205 -> 15202 [style=invis]
+	50325 [label="oxo
+-ox
+xo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50325 -> 57998 [style=invis]
+	50325 -> 58126 [style=invis]
+	50332 [label="-xo
+oox
+xo-
+ 2 1" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50332 -> 58509 [style=invis]
+	50329 [label="ox-
+oox
+xo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50329 -> 15777 [style=invis]
+	50329 -> 15585 [style=invis]
+	50457 [label="ox-
+oox
+x-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7473 [label="oxx
+xoo
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21078 [label="xoo
+xox
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21713 [label="ox-
+xox
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21713 -> 15074 [style=invis]
+	21713 -> 15266 [style=invis]
+	21716 [label="-xo
+xox
+oo-
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21653 [label="oxo
+xox
+-o-
+ 2 1" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21653 -> 57998 [style=invis]
+	21968 [label="-x-
+xox
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21589 [label="oxo
+xox
+o--
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21841 [label="ox-
+xox
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6052 [label="xxo
+x-o
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10208 [label="xx-
+-xo
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10148 [label="xxo
+-xo
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10152 [label="xx-
+oxo
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10152 -> 22480 [style=invis]
+	10152 -> 22420 [style=invis]
+	7136 [label="x-x
+x-o
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7074 [label="xox
+x-o
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	7074 -> 22468 [style=invis]
+	7074 -> 22420 [style=invis]
+	21444 [label="x-o
+x-x
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21382 [label="xoo
+x-x
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21382 -> 23490 [style=invis]
+	21382 -> 23250 [style=invis]
+	10084 [label="xxo
+-xo
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10088 [label="xx-
+oxo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10088 -> 23504 [style=invis]
+	10088 -> 23250 [style=invis]
+	5988 [label="xxo
+x-o
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21442 [label="xo-
+x-x
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7106 [label="xox
+x--
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10028 [label="xxo
+oxo
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	35746 [label="xox
+--o
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35746 -> 22468 [style=invis]
+	35746 -> 22356 [style=invis]
+	35626 [label="xox
+o-o
+x-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35626 -> 54549 [style=invis]
+	35626 -> 54661 [style=invis]
+	11208 [label="x-x
+ox-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10978 [label="xox
+-xo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10978 -> 54676 [style=invis]
+	10978 -> 54549 [style=invis]
+	10984 [label="x-x
+oxo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10984 -> 22480 [style=invis]
+	10984 -> 22356 [style=invis]
+	6882 [label="xox
+x-o
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	6882 -> 54676 [style=invis]
+	6882 -> 54661 [style=invis]
+	11202 [label="xox
+-x-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10954 [label="xox
+ox-
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10954 -> 22420 [style=invis]
+	10954 -> 22356 [style=invis]
+	10124 [label="xxo
+ox-
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10124 -> 51096 [style=invis]
+	10124 -> 51092 [style=invis]
+	10180 [label="xxo
+-x-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7010 [label="xox
+x-o
+o-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	7010 -> 51084 [style=invis]
+	7010 -> 51092 [style=invis]
+	7617 [label="oxx
+x--
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7393 [label="oxx
+x-o
+oo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	7393 -> 51096 [style=invis]
+	7393 -> 51084 [style=invis]
+	7648 [label="-xx
+x-o
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	10184 [label="xx-
+ox-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	50054 [label="xoo
+--x
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	50054 -> 23490 [style=invis]
+	50054 -> 23378 [style=invis]
+	49934 [label="xoo
+o-x
+x-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	49934 -> 51084 [style=invis]
+	49934 -> 50972 [style=invis]
+	11082 [label="xox
+ox-
+o-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	11082 -> 51092 [style=invis]
+	11082 -> 50972 [style=invis]
+	11112 [label="x-x
+oxo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	11112 -> 23504 [style=invis]
+	11112 -> 23378 [style=invis]
+	10858 [label="xox
+oxo
+o--
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10858 -> 54549 [style=invis]
+	10858 -> 54421 [style=invis]
+	49806 [label="xoo
+o-x
+xo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	49806 -> 54421 [style=invis]
+	49806 -> 54661 [style=invis]
+	14785 [label="o-x
+xx-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	14531 [label="oox
+xx-
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14531 -> 23250 [style=invis]
+	14531 -> 23378 [style=invis]
+	14561 [label="o-x
+xxo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	14561 -> 51096 [style=invis]
+	14561 -> 50972 [style=invis]
+	14562 [label="-ox
+xxo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	14562 -> 54676 [style=invis]
+	14562 -> 54421 [style=invis]
+	14786 [label="-ox
+xx-
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	14816 [label="--x
+xxo
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21318 [label="xoo
+x-x
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21318 -> 52114 [style=invis]
+	21318 -> 52106 [style=invis]
+	7521 [label="oxx
+x-o
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7521 -> 52120 [style=invis]
+	7521 -> 52106 [style=invis]
+	10060 [label="xxo
+ox-
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10060 -> 52120 [style=invis]
+	10060 -> 52114 [style=invis]
+	14659 [label="oox
+xx-
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14659 -> 52114 [style=invis]
+	14659 -> 51994 [style=invis]
+	14435 [label="oox
+xxo
+o--
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	14435 -> 50844 [style=invis]
+	14435 -> 50972 [style=invis]
+	50445 [label="oxo
+o-x
+x-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50445 -> 51994 [style=invis]
+	50445 -> 52106 [style=invis]
+	50317 [label="oxo
+o-x
+xo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50317 -> 51084 [style=invis]
+	50317 -> 50844 [style=invis]
+	14690 [label="-ox
+xxo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	14690 -> 50844 [style=invis]
+	14690 -> 51092 [style=invis]
+	14689 [label="o-x
+xxo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	14689 -> 52120 [style=invis]
+	14689 -> 51994 [style=invis]
+	21953 [label="ox-
+x-x
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	21701 [label="oxo
+x-x
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21701 -> 51866 [style=invis]
+	21701 -> 52106 [style=invis]
+	21829 [label="oxo
+x-x
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21829 -> 166570 [style=invis]
+	21829 -> 166458 [style=invis]
+	13665 [label="ox-
+xxo
+o-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	13665 -> 52120 [style=invis]
+	13665 -> 51866 [style=invis]
+	13637 [label="oxo
+xx-
+o-o
+ 2 1" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	13637 -> 166458 [style=invis]
+	13605 [label="oxo
+xxo
+--o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	13668 [label="-xo
+xxo
+o-o
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	13732 [label="-xo
+xxo
+-oo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	13413 [label="oxo
+xxo
+o--
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	13413 -> 51866 [style=invis]
+	13413 -> 51994 [style=invis]
+	13477 [label="oxo
+xxo
+-o-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	13477 -> 51096 [style=invis]
+	13477 -> 50844 [style=invis]
+	36233 [label="oxx
+o--
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36233 -> 40241 [style=invis]
+	36233 -> 40353 [style=invis]
+	36264 [label="-xx
+o-o
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36264 -> 22228 [style=invis]
+	36264 -> 22468 [style=invis]
+	9960 [label="xx-
+oxo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9960 -> 22480 [style=invis]
+	9960 -> 22228 [style=invis]
+	9956 [label="xxo
+-xo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9956 -> 40368 [style=invis]
+	9956 -> 40241 [style=invis]
+	5860 [label="xxo
+x-o
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	5860 -> 40368 [style=invis]
+	5860 -> 40353 [style=invis]
+	36257 [label="oxx
+--o
+xoo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36257 -> 52617 [style=invis]
+	36257 -> 52505 [style=invis]
+	7585 [label="oxx
+x-o
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	7585 -> 52377 [style=invis]
+	7585 -> 52617 [style=invis]
+	9932 [label="xxo
+ox-
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9932 -> 52377 [style=invis]
+	9932 -> 52505 [style=invis]
+	13729 [label="ox-
+xxo
+-oo
+ 2 1" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	13729 -> 52377 [style=invis]
+	14753 [label="o-x
+xxo
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14753 -> 52377 [style=invis]
+	14753 -> 52505 [style=invis]
+	14754 [label="-ox
+xxo
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14754 -> 22228 [style=invis]
+	14754 -> 22420 [style=invis]
+	14627 [label="oox
+xxo
+--o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14627 -> 40241 [style=invis]
+	14627 -> 40113 [style=invis]
+	50569 [label="ox-
+o-x
+xoo
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	50569 -> 40353 [style=invis]
+	50569 -> 40113 [style=invis]
+	13540 [label="-xo
+xxo
+oo-
+ 2 2" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	13540 -> 40368 [style=invis]
+	13540 -> 40113 [style=invis]
+	36137 [label="oxx
+o-o
+x-o
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36137 -> 55571 [style=invis]
+	36137 -> 55683 [style=invis]
+	9836 [label="xxo
+oxo
+o--
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9836 -> 55571 [style=invis]
+	9836 -> 55443 [style=invis]
+	21190 [label="xoo
+x-x
+oo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	21190 -> 55443 [style=invis]
+	21190 -> 55683 [style=invis]
+	14723 [label="oox
+xx-
+-oo
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14723 -> 55571 [style=invis]
+	14723 -> 55443 [style=invis]
+	36009 [label="oxx
+o-o
+xo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	36009 -> 54673 [style=invis]
+	36009 -> 54661 [style=invis]
+	9900 [label="xxo
+oxo
+-o-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	9900 -> 54673 [style=invis]
+	9900 -> 54676 [style=invis]
+	14499 [label="oox
+xxo
+-o-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	14499 -> 54673 [style=invis]
+	14499 -> 54421 [style=invis]
+	10922 [label="xox
+oxo
+-o-
+ 2 1" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	10922 -> 87125 [style=invis]
+	35498 [label="xox
+o-o
+xo-
+ 2 2" color=LightSkyBlue fillcolor=LightSkyBlue margin=0 shape=circle style=filled]
+	35498 -> 87365 [style=invis]
+	35498 -> 87125 [style=invis]
+	15840 [label="-oo
+oox
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	15713 [label="xoo
+oox
+x-x
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	15713 -> 52122 [style=invis]
+	14180 [label="oox
+oox
+x-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	14244 [label="oox
+oox
+-xx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	15809 [label="xoo
+oo-
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	58637 [label="xox
+xoo
+o-x
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	58637 -> 52122 [style=invis]
+	58509 [label="xox
+xoo
+ox-
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	58509 -> 51100 [style=invis]
+	15298 [label="oxo
+oo-
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	15202 [label="oxo
+oox
+x-x
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	15202 -> 51100 [style=invis]
+	15328 [label="o-o
+oox
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	15585 [label="xoo
+oox
+xx-
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	15585 -> 51100 [style=invis]
+	14052 [label="oox
+oox
+xx-
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	14052 -> 40369 [style=invis]
+	15266 [label="oxo
+oox
+-xx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	15266 -> 22484 [style=invis]
+	58761 [label="xo-
+xoo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	58761 -> 40369 [style=invis]
+	15777 [label="xoo
+oox
+-xx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	15777 -> 52633 [style=invis]
+	15074 [label="oxo
+oox
+xx-
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	15074 -> 54677 [style=invis]
+	57998 [label="oxx
+xoo
+ox-
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	57998 -> 54677 [style=invis]
+	58126 [label="oxx
+xoo
+o-x
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	58126 -> 51100 [style=invis]
+	58246 [label="oxx
+-oo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	58246 -> 23506 [style=invis]
+	22480 [label="oo-
+oxo
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	22420 [label="oox
+oxo
+-xx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	22420 -> 15330 [style=invis]
+	22468 [label="oox
+o-o
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	23490 [label="oxo
+o-o
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	23250 [label="oxo
+oxo
+xx-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	23504 [label="o-o
+oxo
+xxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	22356 [label="oox
+oxo
+x-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	54549 [label="xox
+oxo
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	54661 [label="xox
+o-o
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	54661 -> 52122 [style=invis]
+	54676 [label="-ox
+oxo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	54676 -> 15330 [style=invis]
+	51096 [label="oo-
+xxo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	51096 -> 15841 [style=invis]
+	51092 [label="oox
+-xo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	51092 -> 15330 [style=invis]
+	51084 [label="oox
+x-o
+oxx
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	51084 -> 51100 [style=invis]
+	23378 [label="oxo
+oxo
+x-x
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	23378 -> 58254 [style=invis]
+	50972 [label="oox
+xxo
+o-x
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50972 -> 58254 [style=invis]
+	54421 [label="xox
+oxo
+ox-
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	54421 -> 58254 [style=invis]
+	52114 [label="oxo
+-xo
+oxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	52106 [label="oxo
+x-o
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	52106 -> 54677 [style=invis]
+	52120 [label="o-o
+xxo
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	52120 -> 15841 [style=invis]
+	51994 [label="oxo
+xxo
+o-x
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	51994 -> 58765 [style=invis]
+	50844 [label="oox
+xxo
+ox-
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	50844 -> 58765 [style=invis]
+	51866 [label="oxo
+xxo
+ox-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	166570 [label="oxo
+x-x
+oxo
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	166570 -> 87381 [style=invis]
+	166458 [label="oxo
+xxx
+o-o
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	40241 [label="xoo
+oxx
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	40353 [label="xoo
+o-x
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	40353 -> 52633 [style=invis]
+	22228 [label="oox
+oxo
+xx-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	40368 [label="-oo
+oxx
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	40368 -> 14308 [style=invis]
+	52617 [label="xoo
+x-o
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	52617 -> 40369 [style=invis]
+	52505 [label="xoo
+xxo
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	52377 [label="xoo
+xxo
+ox-
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	52377 -> 15841 [style=invis]
+	40113 [label="xoo
+oxx
+ox-
+ 1 1" color=LightSalmon fillcolor=mediumspringgreen margin=0.1 shape=square style=filled]
+	40113 -> 58765 [style=invis]
+	55571 [label="xxo
+oxo
+o-x
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	55683 [label="xxo
+o-o
+oxx
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	55683 -> 55699 [style=invis]
+	55443 [label="xxo
+oxo
+ox-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	54673 [label="xo-
+oxo
+oxx
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	87125 [label="xox
+oxo
+xo-
+ 0 0" color=LightSalmon fillcolor=LightSkyBlue margin=0.1 shape=square style=filled]
+	87365 [label="xox
+o-o
+xox
+ 1 1" color=LightSalmon fillcolor=LightSalmon margin=0.1 shape=square style=filled]
+	87365 -> 166586 [style=invis]
+	52122 [label="xox
+oox
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	51100 [label="xxo
+oox
+xoo
+ 0 0" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	40369 [label="oxx
+xoo
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	22484 [label="xxo
+xox
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	52633 [label="oxx
+oox
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	54677 [label="oxo
+xox
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	23506 [label="xox
+xox
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	15330 [label="xox
+xxo
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	15841 [label="oxx
+xxo
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	58254 [label="xoo
+oxx
+xoo
+ 0 0" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	58765 [label="oxo
+oxx
+xoo
+ 0 0" color=LightSkyBlue fillcolor=mediumspringgreen margin=0 shape=circle style=filled]
+	87381 [label="oxo
+xox
+oxo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	14308 [label="xxo
+xxo
+ooo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	55699 [label="oox
+xox
+xoo
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+	166586 [label="xox
+ooo
+xox
+ 0 0" color=LightSkyBlue fillcolor=LightSalmon margin=0 shape=circle style=filled]
+}
